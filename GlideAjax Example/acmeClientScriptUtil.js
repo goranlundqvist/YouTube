@@ -26,7 +26,12 @@ acmeClientScriptUtil.prototype = Object.extendsObject(AbstractAjaxProcessor, {
 		
 		
 	},
-
+/**
+ * Checks if the incident has any active incident tasks.
+ *
+ * @param {string} sys_id - sys_id of the record that is sent through the GlideAjax call.
+ * @return {Boolean} returns true if there is any open incident tasks 
+ */		
 	
 	checkTask: function() {
 		var incRec = this.getParameter('sysparm_inc_sysid');
@@ -39,7 +44,7 @@ acmeClientScriptUtil.prototype = Object.extendsObject(AbstractAjaxProcessor, {
 			return true;
 		}
 		else
-			return;
+			return false;
 	},
 
 	type: 'acmeClientScriptUtil'
