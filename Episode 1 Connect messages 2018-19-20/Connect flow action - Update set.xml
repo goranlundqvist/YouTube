@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2018-10-19 22:00:01">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Connect Spoke">116703c19f200300af7196fcc67fcf17</application>
+<application_name>Connect Spoke</application_name>
+<application_scope>sn_connect_ah</application_scope>
+<application_version>1.0.11</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Connect custom action</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>761c5f700f1da7004cf365ba32050eff</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-10-19 22:00:00</sys_created_on>
+<sys_id>bbfd9f700f1da7004cf365ba32050ee8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-10-19 22:00:00</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Connect Spoke">116703c19f200300af7196fcc67fcf17</application>
+<category>customer</category>
+<comments/>
+<name>sys_hub_action_type_definition_61843da40f9d67004cf365ba32050e99</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition"><sys_hub_action_type_definition action="DELETE"><access>public</access><active>true</active><annotation/><category/><copied_from/><copied_from_name/><description/><internal_name>none_task_message_sender</internal_name><label_cache>[{"name":"{{action.live_group_profile}}","label":"action➛Live Group Profile","type":"action","ref":""},{"name":"{{action.message}}","label":"action➛Message","type":"action","ref":""},{"name":"{{action.live_group_profile.sys_id}}","label":"action➛Live Group Profile➛Sys ID","type":"action","ref":""}]</label_cache><latest_snapshot>3935b5e40f9d67004cf365ba32050edf</latest_snapshot><master_snapshot>fe35f5e40f9d67004cf365ba32050e47</master_snapshot><name>None Task Message sender</name><outputs/><state>published</state><sys_class_name>sys_hub_action_type_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-10-18 19:40:42</sys_created_on><sys_id>61843da40f9d67004cf365ba32050e99</sys_id><sys_mod_count>2</sys_mod_count><sys_name>None Task Message sender</sys_name><sys_package display_value="Connect Spoke" source="sn_connect_ah">116703c19f200300af7196fcc67fcf17</sys_package><sys_policy/><sys_scope display_value="Connect Spoke">116703c19f200300af7196fcc67fcf17</sys_scope><sys_update_name>sys_hub_action_type_definition_61843da40f9d67004cf365ba32050e99</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-10-18 19:43:49</sys_updated_on><system_level>false</system_level><type/></sys_hub_action_type_definition><sys_translated_text action="delete_multiple" query="documentkey=61843da40f9d67004cf365ba32050e99"/><sys_variable_value action="delete_multiple" query="document_key=61843da40f9d67004cf365ba32050e99"/></record_update>]]></payload>
+<payload_hash>-672555523</payload_hash>
+<remote_update_set display_value="Connect custom action">bbfd9f700f1da7004cf365ba32050ee8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-10-19 22:00:00</sys_created_on>
+<sys_id>000e9f700f1da7004cf365ba32050eea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1668e53ff040000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-10-19 22:00:00</sys_updated_on>
+<table/>
+<target_name>None Task Message sender</target_name>
+<type>Action Type</type>
+<update_domain>global</update_domain>
+<update_guid>a51d5bb0201da7003c05bf7dcff6dda9</update_guid>
+<update_guid_history>a51d5bb0201da7003c05bf7dcff6dda9:-672555523,cb35f5e4fd9d6700fc396fe66cc18a8c:2025904265,0325b5e4089d670030867366eed61110:-1342536251,ed843da4e69d6700af4a3297acfebe9a:915402449</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Connect Spoke">116703c19f200300af7196fcc67fcf17</application>
+<category>customer</category>
+<comments/>
+<name>sys_hub_step_instance_aebc57b00f1da7004cf365ba32050e32</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_step_instance"><sys_hub_step_instance action="DELETE"><action display_value="">aa5cd7700f1da7004cf365ba32050e3c</action><cid>265451b0-2e97-4c41-95de-fa527e51f59c</cid><extended_inputs/><extended_inputs/><extended_outputs/><icon/><inputs/><label>Script step</label><order>1</order><outputs/><step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type><sys_class_name>sys_hub_step_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-10-19 21:54:27</sys_created_on><sys_id>aebc57b00f1da7004cf365ba32050e32</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Script step</sys_name><sys_package display_value="Connect Spoke" source="sn_connect_ah">116703c19f200300af7196fcc67fcf17</sys_package><sys_policy/><sys_scope display_value="Connect Spoke">116703c19f200300af7196fcc67fcf17</sys_scope><sys_update_name>sys_hub_step_instance_aebc57b00f1da7004cf365ba32050e32</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-10-19 21:54:28</sys_updated_on></sys_hub_step_instance><sys_variable_value action="delete_multiple" query="document_key=aebc57b00f1da7004cf365ba32050e32"/><sys_element_mapping action="delete_multiple" query="id=aebc57b00f1da7004cf365ba32050e32"/></record_update>]]></payload>
+<payload_hash>-106018013</payload_hash>
+<remote_update_set display_value="Connect custom action">bbfd9f700f1da7004cf365ba32050ee8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-10-19 22:00:00</sys_created_on>
+<sys_id>0c0e9f700f1da7004cf365ba32050eea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1668e5401e30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-10-19 22:00:00</sys_updated_on>
+<table/>
+<target_name>Script step</target_name>
+<type>Step Instance</type>
+<update_domain>global</update_domain>
+<update_guid>291d5bb0db1da700a1199db6df6baade</update_guid>
+<update_guid_history>291d5bb0db1da700a1199db6df6baade:-106018013,72bc57b0dd1da700f0810b969578894d:108691816,2ebc57b0c21da7009d8b167f8fcabd35:2107397775</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Connect Spoke">116703c19f200300af7196fcc67fcf17</application>
+<category>customer</category>
+<comments/>
+<name>sys_hub_step_ext_input_e2bc57b00f1da7004cf365ba32050e3b</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_hub_step_ext_input"&gt;&lt;sys_hub_step_ext_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;groupProfile&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;groupProfile&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Script step"&gt;aebc57b00f1da7004cf365ba32050e32&lt;/model&gt;&lt;model_id&gt;aebc57b00f1da7004cf365ba32050e32&lt;/model_id&gt;&lt;model_table&gt;sys_hub_step_instance&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_step_ext_input_aebc57b00f1da7004cf365ba32050e32&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;0&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_step_ext_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-10-19 21:54:28&lt;/sys_created_on&gt;&lt;sys_id&gt;e2bc57b00f1da7004cf365ba32050e3b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;var__m_sys_hub_step_ext_input_aebc57b00f1da7004cf365ba32050e32&lt;/sys_name&gt;&lt;sys_package display_value="Connect Spoke" source="sn_connect_ah"&gt;116703c19f200300af7196fcc67fcf17&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Connect Spoke"&gt;116703c19f200300af7196fcc67fcf17&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_step_ext_input_e2bc57b00f1da7004cf365ba32050e3b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-10-19 21:54:28&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_step_ext_input&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1421581520</payload_hash>
+<remote_update_set display_value="Connect custom action">bbfd9f700f1da7004cf365ba32050ee8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-10-19 22:00:00</sys_created_on>
+<sys_id>480e9f700f1da7004cf365ba32050eea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1668e5293010000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-10-19 22:00:00</sys_updated_on>
+<table/>
+<target_name/>
+<type>Extended Step Input Variable</type>
+<update_domain>global</update_domain>
+<update_guid>36bc57b0531da700b1c7ecb08a55a63f</update_guid>
+<update_guid_history>36bc57b0531da700b1c7ecb08a55a63f:-1421581520</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Connect Spoke">116703c19f200300af7196fcc67fcf17</application>
+<category>customer</category>
+<comments/>
+<name>sys_hub_action_input_eabc1f700f1da7004cf365ba32050ea3</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_hub_action_input"&gt;&lt;sys_hub_action_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;conversation_you_want_to_send_message_to&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;label&gt;Conversation you want to send message to&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;model display_value="Send Message to none task conversation"&gt;aa5cd7700f1da7004cf365ba32050e3c&lt;/model&gt;&lt;model_id&gt;aa5cd7700f1da7004cf365ba32050e3c&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_definition&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_input_aa5cd7700f1da7004cf365ba32050e3c&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;0&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="live_group_profile"&gt;live_group_profile&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-10-19 21:54:27&lt;/sys_created_on&gt;&lt;sys_id&gt;eabc1f700f1da7004cf365ba32050ea3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;var__m_sys_hub_action_input_aa5cd7700f1da7004cf365ba32050e3c&lt;/sys_name&gt;&lt;sys_package display_value="Connect Spoke" source="sn_connect_ah"&gt;116703c19f200300af7196fcc67fcf17&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Connect Spoke"&gt;116703c19f200300af7196fcc67fcf17&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_action_input_eabc1f700f1da7004cf365ba32050ea3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-10-19 21:54:27&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_input&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-156152305</payload_hash>
+<remote_update_set display_value="Connect custom action">bbfd9f700f1da7004cf365ba32050ee8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-10-19 22:00:00</sys_created_on>
+<sys_id>4c0e9f700f1da7004cf365ba32050ee9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1668e5291010000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-10-19 22:00:00</sys_updated_on>
+<table/>
+<target_name/>
+<type>Action Inputs</type>
+<update_domain>global</update_domain>
+<update_guid>6ebc57b0901da7003af65868e81cf00f</update_guid>
+<update_guid_history>6ebc57b0901da7003af65868e81cf00f:-156152305</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Connect Spoke">116703c19f200300af7196fcc67fcf17</application>
+<category>customer</category>
+<comments/>
+<name>sys_hub_step_ext_input_32bc57b00f1da7004cf365ba32050e40</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_hub_step_ext_input"&gt;&lt;sys_hub_step_ext_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;message&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;message&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Script step"&gt;aebc57b00f1da7004cf365ba32050e32&lt;/model&gt;&lt;model_id&gt;aebc57b00f1da7004cf365ba32050e32&lt;/model_id&gt;&lt;model_table&gt;sys_hub_step_instance&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_step_ext_input_aebc57b00f1da7004cf365ba32050e32&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_step_ext_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-10-19 21:54:28&lt;/sys_created_on&gt;&lt;sys_id&gt;32bc57b00f1da7004cf365ba32050e40&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;var__m_sys_hub_step_ext_input_aebc57b00f1da7004cf365ba32050e32&lt;/sys_name&gt;&lt;sys_package display_value="Connect Spoke" source="sn_connect_ah"&gt;116703c19f200300af7196fcc67fcf17&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Connect Spoke"&gt;116703c19f200300af7196fcc67fcf17&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_step_ext_input_32bc57b00f1da7004cf365ba32050e40&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-10-19 21:54:28&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_step_ext_input&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1559318501</payload_hash>
+<remote_update_set display_value="Connect custom action">bbfd9f700f1da7004cf365ba32050ee8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-10-19 22:00:00</sys_created_on>
+<sys_id>840e9f700f1da7004cf365ba32050eea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1668e5293560000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-10-19 22:00:00</sys_updated_on>
+<table/>
+<target_name/>
+<type>Extended Step Input Variable</type>
+<update_domain>global</update_domain>
+<update_guid>fabc57b0331da700cfda3ed0524fcf43</update_guid>
+<update_guid_history>fabc57b0331da700cfda3ed0524fcf43:-1559318501</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Connect Spoke">116703c19f200300af7196fcc67fcf17</application>
+<category>customer</category>
+<comments/>
+<name>sys_hub_action_input_aabc57b00f1da7004cf365ba32050e12</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_hub_action_input"&gt;&lt;sys_hub_action_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;message_you_want_to_send&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Message you want to send&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Send Message to none task conversation"&gt;aa5cd7700f1da7004cf365ba32050e3c&lt;/model&gt;&lt;model_id&gt;aa5cd7700f1da7004cf365ba32050e3c&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_definition&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_input_aa5cd7700f1da7004cf365ba32050e3c&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-10-19 21:54:27&lt;/sys_created_on&gt;&lt;sys_id&gt;aabc57b00f1da7004cf365ba32050e12&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;var__m_sys_hub_action_input_aa5cd7700f1da7004cf365ba32050e3c&lt;/sys_name&gt;&lt;sys_package display_value="Connect Spoke" source="sn_connect_ah"&gt;116703c19f200300af7196fcc67fcf17&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Connect Spoke"&gt;116703c19f200300af7196fcc67fcf17&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_action_input_aabc57b00f1da7004cf365ba32050e12&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-10-19 21:54:27&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_input&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1527519389</payload_hash>
+<remote_update_set display_value="Connect custom action">bbfd9f700f1da7004cf365ba32050ee8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-10-19 22:00:00</sys_created_on>
+<sys_id>880e9f700f1da7004cf365ba32050ee9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1668e5291740000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-10-19 22:00:00</sys_updated_on>
+<table/>
+<target_name/>
+<type>Action Inputs</type>
+<update_domain>global</update_domain>
+<update_guid>a2bc57b04a1da7007826140703ab9716</update_guid>
+<update_guid_history>a2bc57b04a1da7007826140703ab9716:1527519389</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Connect Spoke">116703c19f200300af7196fcc67fcf17</application>
+<category>customer</category>
+<comments/>
+<name>sys_hub_action_type_definition_aa5cd7700f1da7004cf365ba32050e3c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition"><sys_hub_action_type_definition action="DELETE"><access>public</access><active>true</active><annotation/><category/><copied_from/><copied_from_name/><description>Use this action to send a message to a conversation that isn't connected to a task</description><internal_name>send_message_to_none_task_conversation</internal_name><label_cache>[{"name":"{{action.conversation_you_want_to_send_message_to}}","label":"action➛Conversation you want to send message to","type":"action","ref":"live_group_profile"},{"name":"{{action.message_you_want_to_send}}","label":"action➛Message you want to send","type":"action","ref":""}]</label_cache><latest_snapshot/><master_snapshot/><name>Send Message to none task conversation</name><outputs/><state>draft</state><sys_class_name>sys_hub_action_type_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-10-19 21:52:49</sys_created_on><sys_id>aa5cd7700f1da7004cf365ba32050e3c</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Send Message to none task conversation</sys_name><sys_package display_value="Connect Spoke" source="sn_connect_ah">116703c19f200300af7196fcc67fcf17</sys_package><sys_policy/><sys_scope display_value="Connect Spoke">116703c19f200300af7196fcc67fcf17</sys_scope><sys_update_name>sys_hub_action_type_definition_aa5cd7700f1da7004cf365ba32050e3c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-10-19 21:54:27</sys_updated_on><system_level>false</system_level><type/></sys_hub_action_type_definition><sys_translated_text action="delete_multiple" query="documentkey=aa5cd7700f1da7004cf365ba32050e3c"/><sys_variable_value action="delete_multiple" query="document_key=aa5cd7700f1da7004cf365ba32050e3c"/></record_update>]]></payload>
+<payload_hash>-1088884802</payload_hash>
+<remote_update_set display_value="Connect custom action">bbfd9f700f1da7004cf365ba32050ee8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-10-19 22:00:00</sys_created_on>
+<sys_id>c00e9f700f1da7004cf365ba32050eea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1668e54022f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-10-19 22:00:00</sys_updated_on>
+<table/>
+<target_name>Send Message to none task conversation</target_name>
+<type>Action Type</type>
+<update_domain>global</update_domain>
+<update_guid>ad1d5bb0bc1da70029fb34e8724e92e1</update_guid>
+<update_guid_history>ad1d5bb0bc1da70029fb34e8724e92e1:-1088884802,a2bc1f70861da700d67ac010ffc731a2:-580138062,a65cd770911da7009267de3c7a11de3e:933156641</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Connect Spoke">116703c19f200300af7196fcc67fcf17</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_var__m_sys_hub_action_input_aa5cd7700f1da7004cf365ba32050e3c_message_you_want_to_send_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="message_you_want_to_send" label="Message you want to send" language="en" table="var__m_sys_hub_action_input_aa5cd7700f1da7004cf365ba32050e3c"><sys_documentation action="INSERT_OR_UPDATE"><element>message_you_want_to_send</element><help/><hint/><label>Message you want to send</label><language>en</language><name>var__m_sys_hub_action_input_aa5cd7700f1da7004cf365ba32050e3c</name><plural/><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-10-19 21:54:27</sys_created_on><sys_id>66bc57b00f1da7004cf365ba32050e17</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Message you want to send</sys_name><sys_package display_value="Connect Spoke" source="sn_connect_ah">116703c19f200300af7196fcc67fcf17</sys_package><sys_policy/><sys_scope display_value="Connect Spoke">116703c19f200300af7196fcc67fcf17</sys_scope><sys_update_name>sys_documentation_var__m_sys_hub_action_input_aa5cd7700f1da7004cf365ba32050e3c_message_you_want_to_send_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-10-19 21:54:27</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>2139410397</payload_hash>
+<remote_update_set display_value="Connect custom action">bbfd9f700f1da7004cf365ba32050ee8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-10-19 22:00:00</sys_created_on>
+<sys_id>c40e9f700f1da7004cf365ba32050ee9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1668e5291950000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-10-19 22:00:00</sys_updated_on>
+<table>var__m_sys_hub_action_input_aa5cd7700f1da7004cf365ba32050e3c</table>
+<target_name>.Message you want to send</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>66bc57b0641da7007c00044299d34418</update_guid>
+<update_guid_history>66bc57b0641da7007c00044299d34418:2139410397</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Connect Spoke">116703c19f200300af7196fcc67fcf17</application>
+<category>customer</category>
+<comments/>
+<name>sys_hub_step_instance_d725b5e40f9d67004cf365ba32050e23</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_step_instance"><sys_hub_step_instance action="DELETE"><action display_value="">61843da40f9d67004cf365ba32050e99</action><cid>0a2a8de8-c7e5-4fb4-9d42-732b262866a3</cid><extended_inputs/><extended_inputs/><extended_outputs/><icon/><inputs/><label>Script step</label><order>1</order><outputs/><step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type><sys_class_name>sys_hub_step_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-10-18 19:43:33</sys_created_on><sys_id>d725b5e40f9d67004cf365ba32050e23</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Script step</sys_name><sys_package display_value="Connect Spoke" source="sn_connect_ah">116703c19f200300af7196fcc67fcf17</sys_package><sys_policy/><sys_scope display_value="Connect Spoke">116703c19f200300af7196fcc67fcf17</sys_scope><sys_update_name>sys_hub_step_instance_d725b5e40f9d67004cf365ba32050e23</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-10-18 19:43:33</sys_updated_on></sys_hub_step_instance><sys_variable_value action="delete_multiple" query="document_key=d725b5e40f9d67004cf365ba32050e23"/><sys_element_mapping action="delete_multiple" query="id=d725b5e40f9d67004cf365ba32050e23"/></record_update>]]></payload>
+<payload_hash>-1308881577</payload_hash>
+<remote_update_set display_value="Connect custom action">bbfd9f700f1da7004cf365ba32050ee8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-10-19 22:00:00</sys_created_on>
+<sys_id>cc0e9f700f1da7004cf365ba32050eea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1668e53fe590000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-10-19 22:00:00</sys_updated_on>
+<table/>
+<target_name>Script step</target_name>
+<type>Step Instance</type>
+<update_domain>global</update_domain>
+<update_guid>1d1d5bb0a11da700a9fcab7dd409f1a1</update_guid>
+<update_guid_history>1d1d5bb0a11da700a9fcab7dd409f1a1:-1308881577,db25b5e4019d67004a14952c02f19a71:1736206301,5f25b5e4a49d6700d1a43bfb8256284b:-511964372</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Connect Spoke">116703c19f200300af7196fcc67fcf17</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_var__m_sys_hub_action_input_aa5cd7700f1da7004cf365ba32050e3c_conversation_you_want_to_send_message_to_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="conversation_you_want_to_send_message_to" label="Conversation you want to send message to" language="en" table="var__m_sys_hub_action_input_aa5cd7700f1da7004cf365ba32050e3c"><sys_documentation action="INSERT_OR_UPDATE"><element>conversation_you_want_to_send_message_to</element><help/><hint/><label>Conversation you want to send message to</label><language>en</language><name>var__m_sys_hub_action_input_aa5cd7700f1da7004cf365ba32050e3c</name><plural/><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-10-19 21:54:27</sys_created_on><sys_id>e2bc57b00f1da7004cf365ba32050e11</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Conversation you want to send message to</sys_name><sys_package display_value="Connect Spoke" source="sn_connect_ah">116703c19f200300af7196fcc67fcf17</sys_package><sys_policy/><sys_scope display_value="Connect Spoke">116703c19f200300af7196fcc67fcf17</sys_scope><sys_update_name>sys_documentation_var__m_sys_hub_action_input_aa5cd7700f1da7004cf365ba32050e3c_conversation_you_want_to_send_message_to_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-10-19 21:54:27</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-141542493</payload_hash>
+<remote_update_set display_value="Connect custom action">bbfd9f700f1da7004cf365ba32050ee8</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-10-19 22:00:00</sys_created_on>
+<sys_id>fffd9f700f1da7004cf365ba32050ee8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1668e52912b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-10-19 22:00:00</sys_updated_on>
+<table>var__m_sys_hub_action_input_aa5cd7700f1da7004cf365ba32050e3c</table>
+<target_name>.Conversation you want to send message to</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>e2bc57b06f1da7008ddcaa4c7a671112</update_guid>
+<update_guid_history>e2bc57b06f1da7008ddcaa4c7a671112:-141542493</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
