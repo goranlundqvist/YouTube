@@ -1,0 +1,10 @@
+<div>
+    <div class="pull-right">
+      <strong>{{item.path}}</strong>
+   </div>
+    <a ng-href="{{item.html_url}}" target="_blank" class="h4 text-primary m-b-sm block">
+      <span ng-bind-html="highlight(item.name, data.q)"></span>
+    </a>
+    <p>{{item.description}}</p>
+    <p>Updated <sn-time-ago timestamp="item.updated_at"></sn-time-ago> ago</p>
+  </div>

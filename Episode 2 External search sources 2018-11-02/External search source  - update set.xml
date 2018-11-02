@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2018-11-02 11:33:04">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Search source for github Chuck T's livestream. Don't forget to create your own basic auth config and replace in code</description>
+<inserted/>
+<name>Episode 2 - External search sources</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>f5f315150fad63404cf365ba32050ef4</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-11-02 11:33:04</sys_created_on>
+<sys_id>34c491510fad63404cf365ba32050e8d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-11-02 11:33:04</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_search_source_10a4d3a80fe123404cf365ba32050e54</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_search_source"&gt;&lt;sp_search_source action="INSERT_OR_UPDATE"&gt;&lt;advanced_typeahead_config&gt;false&lt;/advanced_typeahead_config&gt;&lt;condition/&gt;&lt;data_fetch_script&gt;&lt;![CDATA[(function(query) {
+    var results = [];
+    /* Calculate your results here. */
+    var url = "https://api.github.com/search/code?q=" + encodeURI(query) + "+in:file+repo:chucktomasi/sn-community-live-stream";
+	
+    var ws = new GlideHTTPRequest(url);
+	/* 
+	** Dont' forget to change the sys_id on line 10 to your own basic auth config file.
+	** It's in the table: sys_auth_profile_basic
+	*/
+    ws.setAuthenticationProfile("basic", "db1e1f240f2523404cf365ba32050ea6");
+	
+    var jsonOutput = ws.get();
+    if (jsonOutput) {
+        var response = new JSON().decode(jsonOutput.getBody());
+        results = response.items;
+        results.forEach(function(result) {
+            result.url = result.svn_url;
+            result.target = "_blank";
+            result.primary = result.full_name;
+        });
+    }
+
+    return results;
+})(query);]]&gt;&lt;/data_fetch_script&gt;&lt;display_fields/&gt;&lt;enable_typeahead&gt;true&lt;/enable_typeahead&gt;&lt;facet_generation_script&gt;&lt;![CDATA[(function(query, facetService, searchResults) {
+	/* Calculate your facets here using facetService */
+	/* var stateFacet = facetService.createFacet('State', 'state'); */
+	/* stateFacet.addFacetItem('Facet Item Label', '123'); */
+
+})(query, facetService, searchResults);]]&gt;&lt;/facet_generation_script&gt;&lt;id&gt;search_git_hub&lt;/id&gt;&lt;is_scripted_source&gt;true&lt;/is_scripted_source&gt;&lt;name&gt;Search Chuck&lt;/name&gt;&lt;page/&gt;&lt;pagination_supported&gt;false&lt;/pagination_supported&gt;&lt;primary_display_field/&gt;&lt;roles/&gt;&lt;search_page_template&gt;&lt;![CDATA[&lt;div&gt;
+  &lt;div class="pull-right"&gt;
+    &lt;strong&gt;{{item.path}}&lt;/strong&gt;
+ &lt;/div&gt;
+  &lt;a ng-href="{{item.html_url}}" target="_blank" class="h4 text-primary m-b-sm block"&gt;
+    &lt;span ng-bind-html="highlight(item.name, data.q)"&gt;&lt;/span&gt;
+  &lt;/a&gt;
+  &lt;p&gt;{{item.description}}&lt;/p&gt;
+  &lt;p&gt;Updated &lt;sn-time-ago timestamp="item.updated_at"&gt;&lt;/sn-time-ago&gt; ago&lt;/p&gt;
+&lt;/div&gt;]]&gt;&lt;/search_page_template&gt;&lt;source_table/&gt;&lt;sys_class_name&gt;sp_search_source&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-10-31 12:58:50&lt;/sys_created_on&gt;&lt;sys_id&gt;10a4d3a80fe123404cf365ba32050e54&lt;/sys_id&gt;&lt;sys_mod_count&gt;14&lt;/sys_mod_count&gt;&lt;sys_name&gt;Search Chuck&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_search_source_10a4d3a80fe123404cf365ba32050e54&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-11-02 11:32:30&lt;/sys_updated_on&gt;&lt;typeahead_glyph/&gt;&lt;typeahead_template/&gt;&lt;/sp_search_source&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=10a4d3a80fe123404cf365ba32050e54"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-549978764</payload_hash>
+<remote_update_set display_value="Episode 2 - External search sources">34c491510fad63404cf365ba32050e8d</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-11-02 11:33:04</sys_created_on>
+<sys_id>38c491510fad63404cf365ba32050e8d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166d432307a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-11-02 11:33:04</sys_updated_on>
+<table/>
+<target_name>Search Chuck</target_name>
+<type>Search Source</type>
+<update_domain>global</update_domain>
+<update_guid>28a4511544ad63406c0522ff0151b40a</update_guid>
+<update_guid_history>28a4511544ad63406c0522ff0151b40a:-549978764,7acf9b642a252340f84c25788d24b953:-2091905826,2cbf1fe04f2523406fd1626e09ee5bd1:-1885622992,246f5f245d252340a3d9c94a75cf1e95:1325690951,34ac57e03c252340a83bd1c45b162821:-162602072,eeeb17a07a2523402f9e590d4ec1fbc7:-2076534750,165b1fec84e12340d731979bc87ac040:-168215288,53ea17a00b252340f6347808dd0ffc80:-432205276,265a9bac7de1234009b9a3baa7bf635f:-1961116751,a7371f6cf9e123406fb6ce5846d0bf9d:1029940896,43f693ac40e1234069b06bd2381b7dac:1569295259,8476536c65e1234004502c6cef91daae:-377772101,76369ba8eee123404194db7aab7d8f22:1225617393,d8069fe89de12340b5de264b591c528d:-897121536,6135db688ca12340701f5a790d0298d3:439985332</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
