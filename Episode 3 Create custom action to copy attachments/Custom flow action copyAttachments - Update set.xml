@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2018-11-04 17:12:00">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Episode 3 - Custom Action to copy attachments</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>9ea4bc020f6de3404cf365ba32050e10</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-11-04 17:11:59</sys_created_on>
+<sys_id>3885f8ce0f2de3404cf365ba32050e68</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-11-04 17:11:59</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_hub_action_input_4265f4420f6de3404cf365ba32050ed8</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_hub_action_input"&gt;&lt;sys_hub_action_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;source_record_sys_id_&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Source Record (sys_id)&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="copyAttachments"&gt;8665f4420f6de3404cf365ba32050ec2&lt;/model&gt;&lt;model_id&gt;8665f4420f6de3404cf365ba32050ec2&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_input_8665f4420f6de3404cf365ba32050ec2&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-11-04 17:11:32&lt;/sys_created_on&gt;&lt;sys_id&gt;4265f4420f6de3404cf365ba32050ed8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;var__m_sys_hub_action_input_8665f4420f6de3404cf365ba32050ec2&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_action_input_4265f4420f6de3404cf365ba32050ed8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-11-04 17:11:32&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_input&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1512261101</payload_hash>
+<remote_update_set display_value="Episode 3 - Custom Action to copy attachments">3885f8ce0f2de3404cf365ba32050e68</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-11-04 17:11:59</sys_created_on>
+<sys_id>0185f8ce0f2de3404cf365ba32050e6b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166dfb54a900000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-11-04 17:11:59</sys_updated_on>
+<table/>
+<target_name/>
+<type>Action Inputs</type>
+<update_domain>global</update_domain>
+<update_guid>c665f442426de340bd10f8af5f6a5ddb</update_guid>
+<update_guid_history>c665f442426de340bd10f8af5f6a5ddb:1512261101</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_hub_step_instance_0965f4420f6de3404cf365ba32050e0c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_step_instance"><sys_hub_step_instance action="INSERT_OR_UPDATE"><action display_value="copyAttachments">b3f430420f6de3404cf365ba32050e65</action><cid>639b9640-8c6f-437d-83a0-ad8f5330c071</cid><extended_inputs/><extended_inputs/><extended_outputs/><icon/><inputs/><label>Script step</label><order>1</order><outputs/><step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type><sys_class_name>sys_hub_step_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-11-04 17:11:27</sys_created_on><sys_id>0965f4420f6de3404cf365ba32050e0c</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Script step</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_hub_step_instance_0965f4420f6de3404cf365ba32050e0c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-11-04 17:11:28</sys_updated_on></sys_hub_step_instance><sys_variable_value action="delete_multiple" query="document_key=0965f4420f6de3404cf365ba32050e0c"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_step_instance</document><document_key>0965f4420f6de3404cf365ba32050e0c</document_key><order>600</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-11-04 17:11:28</sys_created_on><sys_id>1d65f4420f6de3404cf365ba32050e3d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-11-04 17:11:28</sys_updated_on><value>(function execute(inputs, outputs) {
+
+var copyAtt = new GlideSysAttachment();
+  copyAtt.copy(inputs.sTable,inputs.sSysID,inputs.tTable,inputs.tSysID);
+  
+  
+})(inputs, outputs);
+</value><variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_step_instance</document><document_key>0965f4420f6de3404cf365ba32050e0c</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-11-04 17:11:28</sys_created_on><sys_id>5965f4420f6de3404cf365ba32050e3d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-11-04 17:11:28</sys_updated_on><value>35aa573fd7802200bdbaee5b5e610375</value><variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=0965f4420f6de3404cf365ba32050e0c"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>application</field><id>0965f4420f6de3404cf365ba32050e0c</id><sys_created_by>admin</sys_created_by><sys_created_on>2018-11-04 17:11:28</sys_created_on><sys_id>1565f4420f6de3404cf365ba32050e3d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-11-04 17:11:28</sys_updated_on><table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table><value/></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>script</field><id>0965f4420f6de3404cf365ba32050e0c</id><sys_created_by>admin</sys_created_by><sys_created_on>2018-11-04 17:11:28</sys_created_on><sys_id>d565f4420f6de3404cf365ba32050e3d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-11-04 17:11:28</sys_updated_on><table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table><value/></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>sSysID</field><id>0965f4420f6de3404cf365ba32050e0c</id><sys_created_by>admin</sys_created_by><sys_created_on>2018-11-04 17:11:28</sys_created_on><sys_id>9d65f4420f6de3404cf365ba32050e3e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-11-04 17:11:28</sys_updated_on><table>var__m_sys_hub_step_ext_input_0965f4420f6de3404cf365ba32050e0c</table><value>{{action.source_record_sys_id_}}</value></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>sTable</field><id>0965f4420f6de3404cf365ba32050e0c</id><sys_created_by>admin</sys_created_by><sys_created_on>2018-11-04 17:11:28</sys_created_on><sys_id>d965f4420f6de3404cf365ba32050e3e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-11-04 17:11:28</sys_updated_on><table>var__m_sys_hub_step_ext_input_0965f4420f6de3404cf365ba32050e0c</table><value>{{action.source_table}}</value></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>tSysID</field><id>0965f4420f6de3404cf365ba32050e0c</id><sys_created_by>admin</sys_created_by><sys_created_on>2018-11-04 17:11:28</sys_created_on><sys_id>1965f4420f6de3404cf365ba32050e3e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-11-04 17:11:28</sys_updated_on><table>var__m_sys_hub_step_ext_input_0965f4420f6de3404cf365ba32050e0c</table><value>{{action.target_record_sys_id_}}</value></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>tTable</field><id>0965f4420f6de3404cf365ba32050e0c</id><sys_created_by>admin</sys_created_by><sys_created_on>2018-11-04 17:11:28</sys_created_on><sys_id>5165f4420f6de3404cf365ba32050e3f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-11-04 17:11:28</sys_updated_on><table>var__m_sys_hub_step_ext_input_0965f4420f6de3404cf365ba32050e0c</table><value>{{action.target_table}}</value></sys_element_mapping></record_update>]]></payload>
+<payload_hash>-107424120</payload_hash>
+<remote_update_set display_value="Episode 3 - Custom Action to copy attachments">3885f8ce0f2de3404cf365ba32050e68</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-11-04 17:11:59</sys_created_on>
+<sys_id>0185f8ce0f2de3404cf365ba32050e6e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166dfb53ba60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-11-04 17:11:59</sys_updated_on>
+<table/>
+<target_name>Script step</target_name>
+<type>Step Instance</type>
+<update_domain>global</update_domain>
+<update_guid>1565f442cd6de34077150c0738d6bf41</update_guid>
+<update_guid_history>1565f442cd6de34077150c0738d6bf41:-107424120,0965f442b06de3402accb7b675c82f0f:314198231</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_var__m_sys_hub_action_input_b3f430420f6de3404cf365ba32050e65_target_record_sys_id__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="target_record_sys_id_" label="Target Record (sys_id=" language="en" table="var__m_sys_hub_action_input_b3f430420f6de3404cf365ba32050e65"><sys_documentation action="INSERT_OR_UPDATE"><element>target_record_sys_id_</element><help/><hint/><label>Target Record (sys_id=</label><language>en</language><name>var__m_sys_hub_action_input_b3f430420f6de3404cf365ba32050e65</name><plural/><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-11-04 17:11:26</sys_created_on><sys_id>fc65b4420f6de3404cf365ba32050ee4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Target Record (sys_id=</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_var__m_sys_hub_action_input_b3f430420f6de3404cf365ba32050e65_target_record_sys_id__en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-11-04 17:11:26</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1630356858</payload_hash>
+<remote_update_set display_value="Episode 3 - Custom Action to copy attachments">3885f8ce0f2de3404cf365ba32050e68</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-11-04 17:11:59</sys_created_on>
+<sys_id>0585f8ce0f2de3404cf365ba32050e6a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166dfb5448f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-11-04 17:11:59</sys_updated_on>
+<table>var__m_sys_hub_action_input_b3f430420f6de3404cf365ba32050e65</table>
+<target_name>.Target Record (sys_id=</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>3d65f4420b6de34049387860f43add67</update_guid>
+<update_guid_history>3d65f4420b6de34049387860f43add67:1630356858</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_hub_step_ext_input_8965f4420f6de3404cf365ba32050e2a</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_hub_step_ext_input"&gt;&lt;sys_hub_step_ext_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;sSysID&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;sSysID&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Script step"&gt;0965f4420f6de3404cf365ba32050e0c&lt;/model&gt;&lt;model_id&gt;0965f4420f6de3404cf365ba32050e0c&lt;/model_id&gt;&lt;model_table&gt;sys_hub_step_instance&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_step_ext_input_0965f4420f6de3404cf365ba32050e0c&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_step_ext_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-11-04 17:11:27&lt;/sys_created_on&gt;&lt;sys_id&gt;8965f4420f6de3404cf365ba32050e2a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;var__m_sys_hub_step_ext_input_0965f4420f6de3404cf365ba32050e0c&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_step_ext_input_8965f4420f6de3404cf365ba32050e2a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-11-04 17:11:27&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_step_ext_input&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1017443099</payload_hash>
+<remote_update_set display_value="Episode 3 - Custom Action to copy attachments">3885f8ce0f2de3404cf365ba32050e68</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-11-04 17:11:59</sys_created_on>
+<sys_id>0585f8ce0f2de3404cf365ba32050e6d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166dfb539db0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-11-04 17:11:59</sys_updated_on>
+<table/>
+<target_name/>
+<type>Extended Step Input Variable</type>
+<update_domain>global</update_domain>
+<update_guid>4565f442126de34049e2258fe8afca2e</update_guid>
+<update_guid_history>4565f442126de34049e2258fe8afca2e:1017443099</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_var__m_sys_hub_action_input_8665f4420f6de3404cf365ba32050ec2_target_record_sys_id__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="target_record_sys_id_" label="Target Record (sys_id=" language="en" table="var__m_sys_hub_action_input_8665f4420f6de3404cf365ba32050ec2"><sys_documentation action="INSERT_OR_UPDATE"><element>target_record_sys_id_</element><help/><hint/><label>Target Record (sys_id=</label><language>en</language><name>var__m_sys_hub_action_input_8665f4420f6de3404cf365ba32050ec2</name><plural/><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-11-04 17:11:32</sys_created_on><sys_id>5e65f4420f6de3404cf365ba32050ee8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Target Record (sys_id=</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_var__m_sys_hub_action_input_8665f4420f6de3404cf365ba32050ec2_target_record_sys_id__en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-11-04 17:11:32</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-403934758</payload_hash>
+<remote_update_set display_value="Episode 3 - Custom Action to copy attachments">3885f8ce0f2de3404cf365ba32050e68</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-11-04 17:11:59</sys_created_on>
+<sys_id>0985f8ce0f2de3404cf365ba32050e69</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166dfb54b750000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-11-04 17:11:59</sys_updated_on>
+<table>var__m_sys_hub_action_input_8665f4420f6de3404cf365ba32050ec2</table>
+<target_name>.Target Record (sys_id=</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>5e65f442f16de3402bacda2f4ccaade9</update_guid>
+<update_guid_history>5e65f442f16de3402bacda2f4ccaade9:-403934758</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_hub_step_ext_input_526538420f6de3404cf365ba32050e3d</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_hub_step_ext_input"&gt;&lt;sys_hub_step_ext_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;tSysID&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;tSysID&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Script step"&gt;1665f4420f6de3404cf365ba32050eec&lt;/model&gt;&lt;model_id&gt;1665f4420f6de3404cf365ba32050eec&lt;/model_id&gt;&lt;model_table&gt;sys_hub_step_instance&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_step_ext_input_1665f4420f6de3404cf365ba32050eec&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;3&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_step_ext_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-11-04 17:11:32&lt;/sys_created_on&gt;&lt;sys_id&gt;526538420f6de3404cf365ba32050e3d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;var__m_sys_hub_step_ext_input_1665f4420f6de3404cf365ba32050eec&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_step_ext_input_526538420f6de3404cf365ba32050e3d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-11-04 17:11:32&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_step_ext_input&gt;&lt;/record_update&gt;</payload>
+<payload_hash>104294491</payload_hash>
+<remote_update_set display_value="Episode 3 - Custom Action to copy attachments">3885f8ce0f2de3404cf365ba32050e68</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-11-04 17:11:59</sys_created_on>
+<sys_id>0985f8ce0f2de3404cf365ba32050e6c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166dfb54dbc0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-11-04 17:11:59</sys_updated_on>
+<table/>
+<target_name/>
+<type>Extended Step Input Variable</type>
+<update_domain>global</update_domain>
+<update_guid>1e653842f76de340bc93c03d43ab3240</update_guid>
+<update_guid_history>1e653842f76de340bc93c03d43ab3240:104294491</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_hub_action_input_e06574ce0f2de3404cf365ba32050e2e</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_hub_action_input"&gt;&lt;sys_hub_action_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;source_table&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Source Table&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="copyAttachments"&gt;b3f430420f6de3404cf365ba32050e65&lt;/model&gt;&lt;model_id&gt;b3f430420f6de3404cf365ba32050e65&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_definition&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_input_b3f430420f6de3404cf365ba32050e65&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;0&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-11-04 17:11:25&lt;/sys_created_on&gt;&lt;sys_id&gt;e06574ce0f2de3404cf365ba32050e2e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;var__m_sys_hub_action_input_b3f430420f6de3404cf365ba32050e65&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_action_input_e06574ce0f2de3404cf365ba32050e2e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-11-04 17:11:25&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_input&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1975754432</payload_hash>
+<remote_update_set display_value="Episode 3 - Custom Action to copy attachments">3885f8ce0f2de3404cf365ba32050e68</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-11-04 17:11:59</sys_created_on>
+<sys_id>0d85f8ce0f2de3404cf365ba32050e6b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166dfb5328e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-11-04 17:11:59</sys_updated_on>
+<table/>
+<target_name/>
+<type>Action Inputs</type>
+<update_domain>global</update_domain>
+<update_guid>a465b442e16de3406297cbfd6d3711d1</update_guid>
+<update_guid_history>a465b442e16de3406297cbfd6d3711d1:1975754432</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_var__m_sys_hub_action_input_b3f430420f6de3404cf365ba32050e65_source_table_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="source_table" label="Source Table" language="en" table="var__m_sys_hub_action_input_b3f430420f6de3404cf365ba32050e65"><sys_documentation action="INSERT_OR_UPDATE"><element>source_table</element><help/><hint/><label>Source Table</label><language>en</language><name>var__m_sys_hub_action_input_b3f430420f6de3404cf365ba32050e65</name><plural/><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-11-04 17:11:26</sys_created_on><sys_id>2c65b4420f6de3404cf365ba32050ed2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Source Table</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_var__m_sys_hub_action_input_b3f430420f6de3404cf365ba32050e65_source_table_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-11-04 17:11:26</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1390473509</payload_hash>
+<remote_update_set display_value="Episode 3 - Custom Action to copy attachments">3885f8ce0f2de3404cf365ba32050e68</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-11-04 17:11:59</sys_created_on>
+<sys_id>4185f8ce0f2de3404cf365ba32050e6a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166dfb5444a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-11-04 17:11:59</sys_updated_on>
+<table>var__m_sys_hub_action_input_b3f430420f6de3404cf365ba32050e65</table>
+<target_name>.Source Table</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>7165f442dc6de340bd493a39d503dd63</update_guid>
+<update_guid_history>7165f442dc6de340bd493a39d503dd63:1390473509</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_hub_step_ext_input_8165f4420f6de3404cf365ba32050e2f</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_hub_step_ext_input"&gt;&lt;sys_hub_step_ext_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;tTable&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;tTable&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Script step"&gt;0965f4420f6de3404cf365ba32050e0c&lt;/model&gt;&lt;model_id&gt;0965f4420f6de3404cf365ba32050e0c&lt;/model_id&gt;&lt;model_table&gt;sys_hub_step_instance&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_step_ext_input_0965f4420f6de3404cf365ba32050e0c&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;2&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_step_ext_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-11-04 17:11:27&lt;/sys_created_on&gt;&lt;sys_id&gt;8165f4420f6de3404cf365ba32050e2f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;var__m_sys_hub_step_ext_input_0965f4420f6de3404cf365ba32050e0c&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_step_ext_input_8165f4420f6de3404cf365ba32050e2f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-11-04 17:11:27&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_step_ext_input&gt;&lt;/record_update&gt;</payload>
+<payload_hash>475280880</payload_hash>
+<remote_update_set display_value="Episode 3 - Custom Action to copy attachments">3885f8ce0f2de3404cf365ba32050e68</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-11-04 17:11:59</sys_created_on>
+<sys_id>4185f8ce0f2de3404cf365ba32050e6d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166dfb53a2a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-11-04 17:11:59</sys_updated_on>
+<table/>
+<target_name/>
+<type>Extended Step Input Variable</type>
+<update_domain>global</update_domain>
+<update_guid>4d65f442fd6de3403c80093b1e6ecf32</update_guid>
+<update_guid_history>4d65f442fd6de3403c80093b1e6ecf32:475280880</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_var__m_sys_hub_action_input_8665f4420f6de3404cf365ba32050ec2_source_table_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="source_table" label="Source Table" language="en" table="var__m_sys_hub_action_input_8665f4420f6de3404cf365ba32050ec2"><sys_documentation action="INSERT_OR_UPDATE"><element>source_table</element><help/><hint/><label>Source Table</label><language>en</language><name>var__m_sys_hub_action_input_8665f4420f6de3404cf365ba32050ec2</name><plural/><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-11-04 17:11:32</sys_created_on><sys_id>8a65f4420f6de3404cf365ba32050ed6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Source Table</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_var__m_sys_hub_action_input_8665f4420f6de3404cf365ba32050ec2_source_table_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-11-04 17:11:32</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-507311897</payload_hash>
+<remote_update_set display_value="Episode 3 - Custom Action to copy attachments">3885f8ce0f2de3404cf365ba32050e68</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-11-04 17:11:59</sys_created_on>
+<sys_id>4585f8ce0f2de3404cf365ba32050e69</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166dfb54a4c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-11-04 17:11:59</sys_updated_on>
+<table>var__m_sys_hub_action_input_8665f4420f6de3404cf365ba32050ec2</table>
+<target_name>.Source Table</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>8a65f442826de340e34f26cbeaf880d7</update_guid>
+<update_guid_history>8a65f442826de340e34f26cbeaf880d7:-507311897</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_hub_action_type_snapshot_8665f4420f6de3404cf365ba32050ec2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_snapshot"><sys_hub_action_type_snapshot action="INSERT_OR_UPDATE"><access>public</access><annotation/><category/><copied_from/><copied_from_name/><description>Copies attachments from one record to another record</description><internal_name>copyattachments</internal_name><label_cache>[{"name":"{{action.source_table}}","label":"action➛Source Table","type":"action","ref":""},{"name":"{{action.source_record_sys_id_}}","label":"action➛Source Record (sys_id)","type":"action","ref":""},{"name":"{{action.target_table}}","label":"action➛Target Table","type":"action","ref":""},{"name":"{{action.target_record_sys_id_}}","label":"action➛Target Record (sys_id=","type":"action","ref":""}]</label_cache><master>true</master><name>copyAttachments</name><outputs/><parent_action display_value="copyAttachments">b3f430420f6de3404cf365ba32050e65</parent_action><sys_class_name>sys_hub_action_type_snapshot</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-11-04 17:11:32</sys_created_on><sys_id>8665f4420f6de3404cf365ba32050ec2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>copyAttachments</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_hub_action_type_snapshot_8665f4420f6de3404cf365ba32050ec2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-11-04 17:11:32</sys_updated_on><system_level>false</system_level><type/></sys_hub_action_type_snapshot><sys_translated_text action="delete_multiple" query="documentkey=8665f4420f6de3404cf365ba32050ec2"/><sys_variable_value action="delete_multiple" query="document_key=8665f4420f6de3404cf365ba32050ec2"/></record_update>]]></payload>
+<payload_hash>-1620369210</payload_hash>
+<remote_update_set display_value="Episode 3 - Custom Action to copy attachments">3885f8ce0f2de3404cf365ba32050e68</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-11-04 17:11:59</sys_created_on>
+<sys_id>4585f8ce0f2de3404cf365ba32050e6c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166dfb549d70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-11-04 17:11:59</sys_updated_on>
+<table/>
+<target_name>copyAttachments</target_name>
+<type>Action Type Snapshot</type>
+<update_domain>global</update_domain>
+<update_guid>4e65f442a46de3402ecd53947d3a26c3</update_guid>
+<update_guid_history>4e65f442a46de3402ecd53947d3a26c3:-1620369210</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_hub_action_input_d265f4420f6de3404cf365ba32050ee4</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_hub_action_input"&gt;&lt;sys_hub_action_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;target_record_sys_id_&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Target Record (sys_id=&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="copyAttachments"&gt;8665f4420f6de3404cf365ba32050ec2&lt;/model&gt;&lt;model_id&gt;8665f4420f6de3404cf365ba32050ec2&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_input_8665f4420f6de3404cf365ba32050ec2&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;3&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-11-04 17:11:32&lt;/sys_created_on&gt;&lt;sys_id&gt;d265f4420f6de3404cf365ba32050ee4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;var__m_sys_hub_action_input_8665f4420f6de3404cf365ba32050ec2&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_action_input_d265f4420f6de3404cf365ba32050ee4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-11-04 17:11:32&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_input&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-328003073</payload_hash>
+<remote_update_set display_value="Episode 3 - Custom Action to copy attachments">3885f8ce0f2de3404cf365ba32050e68</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-11-04 17:11:59</sys_created_on>
+<sys_id>4985f8ce0f2de3404cf365ba32050e6b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166dfb54b540000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-11-04 17:11:59</sys_updated_on>
+<table/>
+<target_name/>
+<type>Action Inputs</type>
+<update_domain>global</update_domain>
+<update_guid>5a65f442f96de340e5d36f943622cce7</update_guid>
+<update_guid_history>5a65f442f96de340e5d36f943622cce7:-328003073</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_hub_action_input_3465b4420f6de3404cf365ba32050eda</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_hub_action_input"&gt;&lt;sys_hub_action_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;target_table&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Target Table&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="copyAttachments"&gt;b3f430420f6de3404cf365ba32050e65&lt;/model&gt;&lt;model_id&gt;b3f430420f6de3404cf365ba32050e65&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_definition&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_input_b3f430420f6de3404cf365ba32050e65&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;2&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-11-04 17:11:26&lt;/sys_created_on&gt;&lt;sys_id&gt;3465b4420f6de3404cf365ba32050eda&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;var__m_sys_hub_action_input_b3f430420f6de3404cf365ba32050e65&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_action_input_3465b4420f6de3404cf365ba32050eda&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-11-04 17:11:26&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_input&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-367609878</payload_hash>
+<remote_update_set display_value="Episode 3 - Custom Action to copy attachments">3885f8ce0f2de3404cf365ba32050e68</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-11-04 17:11:59</sys_created_on>
+<sys_id>4d85f8ce0f2de3404cf365ba32050e6a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166dfb5335d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-11-04 17:11:59</sys_updated_on>
+<table/>
+<target_name/>
+<type>Action Inputs</type>
+<update_domain>global</update_domain>
+<update_guid>b865b442f96de3401b4e2563231027dd</update_guid>
+<update_guid_history>b865b442f96de3401b4e2563231027dd:-367609878</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_hub_step_ext_input_c965f4420f6de3404cf365ba32050e25</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_hub_step_ext_input"&gt;&lt;sys_hub_step_ext_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;sTable&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;sTable&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Script step"&gt;0965f4420f6de3404cf365ba32050e0c&lt;/model&gt;&lt;model_id&gt;0965f4420f6de3404cf365ba32050e0c&lt;/model_id&gt;&lt;model_table&gt;sys_hub_step_instance&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_step_ext_input_0965f4420f6de3404cf365ba32050e0c&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;0&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_step_ext_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-11-04 17:11:27&lt;/sys_created_on&gt;&lt;sys_id&gt;c965f4420f6de3404cf365ba32050e25&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;var__m_sys_hub_step_ext_input_0965f4420f6de3404cf365ba32050e0c&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_step_ext_input_c965f4420f6de3404cf365ba32050e25&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-11-04 17:11:27&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_step_ext_input&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1507745584</payload_hash>
+<remote_update_set display_value="Episode 3 - Custom Action to copy attachments">3885f8ce0f2de3404cf365ba32050e68</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-11-04 17:11:59</sys_created_on>
+<sys_id>4d85f8ce0f2de3404cf365ba32050e6d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166dfb539770000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-11-04 17:11:59</sys_updated_on>
+<table/>
+<target_name/>
+<type>Extended Step Input Variable</type>
+<update_domain>global</update_domain>
+<update_guid>0d65f442526de340db29130a9b7bbc29</update_guid>
+<update_guid_history>0d65f442526de340db29130a9b7bbc29:1507745584</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_var__m_sys_hub_action_input_8665f4420f6de3404cf365ba32050ec2_source_record_sys_id__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="source_record_sys_id_" label="Source Record (sys_id)" language="en" table="var__m_sys_hub_action_input_8665f4420f6de3404cf365ba32050ec2"><sys_documentation action="INSERT_OR_UPDATE"><element>source_record_sys_id_</element><help/><hint/><label>Source Record (sys_id)</label><language>en</language><name>var__m_sys_hub_action_input_8665f4420f6de3404cf365ba32050ec2</name><plural/><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-11-04 17:11:32</sys_created_on><sys_id>ca65f4420f6de3404cf365ba32050edc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Source Record (sys_id)</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_var__m_sys_hub_action_input_8665f4420f6de3404cf365ba32050ec2_source_record_sys_id__en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-11-04 17:11:32</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-687794396</payload_hash>
+<remote_update_set display_value="Episode 3 - Custom Action to copy attachments">3885f8ce0f2de3404cf365ba32050e68</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-11-04 17:11:59</sys_created_on>
+<sys_id>7c85f8ce0f2de3404cf365ba32050e68</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166dfb54ab30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-11-04 17:11:59</sys_updated_on>
+<table>var__m_sys_hub_action_input_8665f4420f6de3404cf365ba32050ec2</table>
+<target_name>.Source Record (sys_id)</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>ca65f442e36de34041ae886540d2acdd</update_guid>
+<update_guid_history>ca65f442e36de34041ae886540d2acdd:-687794396</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_hub_action_type_definition_b3f430420f6de3404cf365ba32050e65</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition"><sys_hub_action_type_definition action="INSERT_OR_UPDATE"><access>public</access><active>true</active><annotation/><category/><copied_from/><copied_from_name/><description>Copies attachments from one record to another record</description><internal_name>copyattachments</internal_name><label_cache>[{"name":"{{action.source_table}}","label":"action➛Source Table","type":"action","ref":""},{"name":"{{action.source_record_sys_id_}}","label":"action➛Source Record (sys_id)","type":"action","ref":""},{"name":"{{action.target_table}}","label":"action➛Target Table","type":"action","ref":""},{"name":"{{action.target_record_sys_id_}}","label":"action➛Target Record (sys_id=","type":"action","ref":""}]</label_cache><latest_snapshot>3165f4420f6de3404cf365ba32050e7a</latest_snapshot><master_snapshot>8665f4420f6de3404cf365ba32050ec2</master_snapshot><name>copyAttachments</name><outputs/><state>published</state><sys_class_name>sys_hub_action_type_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-11-04 17:09:44</sys_created_on><sys_id>b3f430420f6de3404cf365ba32050e65</sys_id><sys_mod_count>2</sys_mod_count><sys_name>copyAttachments</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_hub_action_type_definition_b3f430420f6de3404cf365ba32050e65</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-11-04 17:11:33</sys_updated_on><system_level>false</system_level><type/></sys_hub_action_type_definition><sys_translated_text action="delete_multiple" query="documentkey=b3f430420f6de3404cf365ba32050e65"/><sys_variable_value action="delete_multiple" query="document_key=b3f430420f6de3404cf365ba32050e65"/></record_update>]]></payload>
+<payload_hash>-2127307451</payload_hash>
+<remote_update_set display_value="Episode 3 - Custom Action to copy attachments">3885f8ce0f2de3404cf365ba32050e68</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-11-04 17:11:59</sys_created_on>
+<sys_id>8185f8ce0f2de3404cf365ba32050e6c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166dfb54f0b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-11-04 17:11:59</sys_updated_on>
+<table/>
+<target_name>copyAttachments</target_name>
+<type>Action Type</type>
+<update_domain>global</update_domain>
+<update_guid>ee6538425b6de3403e310eebb4479e68</update_guid>
+<update_guid_history>ee6538425b6de3403e310eebb4479e68:-2127307451,2c6574ce852de3405d7126afd34f1a2c:-1844623232,bff43042e06de34023359b6145f08b66:1339453055</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_hub_action_input_8265f4420f6de3404cf365ba32050ede</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_hub_action_input"&gt;&lt;sys_hub_action_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;target_table&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Target Table&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="copyAttachments"&gt;8665f4420f6de3404cf365ba32050ec2&lt;/model&gt;&lt;model_id&gt;8665f4420f6de3404cf365ba32050ec2&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_input_8665f4420f6de3404cf365ba32050ec2&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;2&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-11-04 17:11:32&lt;/sys_created_on&gt;&lt;sys_id&gt;8265f4420f6de3404cf365ba32050ede&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;var__m_sys_hub_action_input_8665f4420f6de3404cf365ba32050ec2&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_action_input_8265f4420f6de3404cf365ba32050ede&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-11-04 17:11:32&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_input&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-662133219</payload_hash>
+<remote_update_set display_value="Episode 3 - Custom Action to copy attachments">3885f8ce0f2de3404cf365ba32050e68</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-11-04 17:11:59</sys_created_on>
+<sys_id>8585f8ce0f2de3404cf365ba32050e6b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166dfb54af20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-11-04 17:11:59</sys_updated_on>
+<table/>
+<target_name/>
+<type>Action Inputs</type>
+<update_domain>global</update_domain>
+<update_guid>1a65f4421f6de340361c4abf89b7ebe1</update_guid>
+<update_guid_history>1a65f4421f6de340361c4abf89b7ebe1:-662133219</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_hub_action_input_0265f4420f6de3404cf365ba32050ec5</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_hub_action_input"&gt;&lt;sys_hub_action_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;source_table&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Source Table&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="copyAttachments"&gt;8665f4420f6de3404cf365ba32050ec2&lt;/model&gt;&lt;model_id&gt;8665f4420f6de3404cf365ba32050ec2&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_input_8665f4420f6de3404cf365ba32050ec2&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;0&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-11-04 17:11:32&lt;/sys_created_on&gt;&lt;sys_id&gt;0265f4420f6de3404cf365ba32050ec5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;var__m_sys_hub_action_input_8665f4420f6de3404cf365ba32050ec2&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_action_input_0265f4420f6de3404cf365ba32050ec5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-11-04 17:11:32&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_input&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-631152141</payload_hash>
+<remote_update_set display_value="Episode 3 - Custom Action to copy attachments">3885f8ce0f2de3404cf365ba32050e68</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-11-04 17:11:59</sys_created_on>
+<sys_id>8985f8ce0f2de3404cf365ba32050e6a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166dfb54a2d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-11-04 17:11:59</sys_updated_on>
+<table/>
+<target_name/>
+<type>Action Inputs</type>
+<update_domain>global</update_domain>
+<update_guid>4665f442c96de340665cde3f30ffe7d5</update_guid>
+<update_guid_history>4665f442c96de340665cde3f30ffe7d5:-631152141</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_hub_step_ext_input_9e65f4420f6de3404cf365ba32050ef5</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_hub_step_ext_input"&gt;&lt;sys_hub_step_ext_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;sSysID&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;sSysID&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Script step"&gt;1665f4420f6de3404cf365ba32050eec&lt;/model&gt;&lt;model_id&gt;1665f4420f6de3404cf365ba32050eec&lt;/model_id&gt;&lt;model_table&gt;sys_hub_step_instance&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_step_ext_input_1665f4420f6de3404cf365ba32050eec&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_step_ext_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-11-04 17:11:32&lt;/sys_created_on&gt;&lt;sys_id&gt;9e65f4420f6de3404cf365ba32050ef5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;var__m_sys_hub_step_ext_input_1665f4420f6de3404cf365ba32050eec&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_step_ext_input_9e65f4420f6de3404cf365ba32050ef5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-11-04 17:11:32&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_step_ext_input&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1136759195</payload_hash>
+<remote_update_set display_value="Episode 3 - Custom Action to copy attachments">3885f8ce0f2de3404cf365ba32050e68</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-11-04 17:11:59</sys_created_on>
+<sys_id>8985f8ce0f2de3404cf365ba32050e6d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166dfb54d070000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-11-04 17:11:59</sys_updated_on>
+<table/>
+<target_name/>
+<type>Extended Step Input Variable</type>
+<update_domain>global</update_domain>
+<update_guid>1e653842896de34002ce70426cc6fd37</update_guid>
+<update_guid_history>1e653842896de34002ce70426cc6fd37:1136759195</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_var__m_sys_hub_action_input_b3f430420f6de3404cf365ba32050e65_source_record_sys_id__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="source_record_sys_id_" label="Source Record (sys_id)" language="en" table="var__m_sys_hub_action_input_b3f430420f6de3404cf365ba32050e65"><sys_documentation action="INSERT_OR_UPDATE"><element>source_record_sys_id_</element><help/><hint/><label>Source Record (sys_id)</label><language>en</language><name>var__m_sys_hub_action_input_b3f430420f6de3404cf365ba32050e65</name><plural/><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-11-04 17:11:26</sys_created_on><sys_id>7c65b4420f6de3404cf365ba32050ed8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Source Record (sys_id)</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_var__m_sys_hub_action_input_b3f430420f6de3404cf365ba32050e65_source_record_sys_id__en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-11-04 17:11:26</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1346497220</payload_hash>
+<remote_update_set display_value="Episode 3 - Custom Action to copy attachments">3885f8ce0f2de3404cf365ba32050e68</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-11-04 17:11:59</sys_created_on>
+<sys_id>8d85f8ce0f2de3404cf365ba32050e69</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166dfb544600000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-11-04 17:11:59</sys_updated_on>
+<table>var__m_sys_hub_action_input_b3f430420f6de3404cf365ba32050e65</table>
+<target_name>.Source Record (sys_id)</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>b965f442dd6de3400e84d9c17b5cb864</update_guid>
+<update_guid_history>b965f442dd6de3400e84d9c17b5cb864:1346497220</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_hub_step_ext_input_5a6538420f6de3404cf365ba32050e38</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_hub_step_ext_input"&gt;&lt;sys_hub_step_ext_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;tTable&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;tTable&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Script step"&gt;1665f4420f6de3404cf365ba32050eec&lt;/model&gt;&lt;model_id&gt;1665f4420f6de3404cf365ba32050eec&lt;/model_id&gt;&lt;model_table&gt;sys_hub_step_instance&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_step_ext_input_1665f4420f6de3404cf365ba32050eec&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;2&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_step_ext_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-11-04 17:11:32&lt;/sys_created_on&gt;&lt;sys_id&gt;5a6538420f6de3404cf365ba32050e38&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;var__m_sys_hub_step_ext_input_1665f4420f6de3404cf365ba32050eec&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_step_ext_input_5a6538420f6de3404cf365ba32050e38&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-11-04 17:11:32&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_step_ext_input&gt;&lt;/record_update&gt;</payload>
+<payload_hash>594596976</payload_hash>
+<remote_update_set display_value="Episode 3 - Custom Action to copy attachments">3885f8ce0f2de3404cf365ba32050e68</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-11-04 17:11:59</sys_created_on>
+<sys_id>8d85f8ce0f2de3404cf365ba32050e6c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166dfb54d680000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-11-04 17:11:59</sys_updated_on>
+<table/>
+<target_name/>
+<type>Extended Step Input Variable</type>
+<update_domain>global</update_domain>
+<update_guid>16653842096de34029c519815f0f1c3c</update_guid>
+<update_guid_history>16653842096de34029c519815f0f1c3c:594596976</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_hub_action_input_7465b4420f6de3404cf365ba32050ee0</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_hub_action_input"&gt;&lt;sys_hub_action_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;target_record_sys_id_&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Target Record (sys_id=&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="copyAttachments"&gt;b3f430420f6de3404cf365ba32050e65&lt;/model&gt;&lt;model_id&gt;b3f430420f6de3404cf365ba32050e65&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_definition&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_input_b3f430420f6de3404cf365ba32050e65&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;3&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-11-04 17:11:26&lt;/sys_created_on&gt;&lt;sys_id&gt;7465b4420f6de3404cf365ba32050ee0&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;var__m_sys_hub_action_input_b3f430420f6de3404cf365ba32050e65&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_action_input_7465b4420f6de3404cf365ba32050ee0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-11-04 17:11:26&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_input&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1586220812</payload_hash>
+<remote_update_set display_value="Episode 3 - Custom Action to copy attachments">3885f8ce0f2de3404cf365ba32050e68</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-11-04 17:11:59</sys_created_on>
+<sys_id>c185f8ce0f2de3404cf365ba32050e6b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166dfb533c20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-11-04 17:11:59</sys_updated_on>
+<table/>
+<target_name/>
+<type>Action Inputs</type>
+<update_domain>global</update_domain>
+<update_guid>f865b4424a6de3407ab223f0f645afe3</update_guid>
+<update_guid_history>f865b4424a6de3407ab223f0f645afe3:1586220812</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_hub_step_instance_1665f4420f6de3404cf365ba32050eec</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_step_instance"><sys_hub_step_instance action="INSERT_OR_UPDATE"><action display_value="copyAttachments">8665f4420f6de3404cf365ba32050ec2</action><cid>639b9640-8c6f-437d-83a0-ad8f5330c071</cid><extended_inputs/><extended_inputs/><extended_outputs/><icon/><inputs/><label>Script step</label><order>1</order><outputs/><step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type><sys_class_name>sys_hub_step_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-11-04 17:11:32</sys_created_on><sys_id>1665f4420f6de3404cf365ba32050eec</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Script step</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_hub_step_instance_1665f4420f6de3404cf365ba32050eec</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-11-04 17:11:33</sys_updated_on></sys_hub_step_instance><sys_variable_value action="delete_multiple" query="document_key=1665f4420f6de3404cf365ba32050eec"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_step_instance</document><document_key>1665f4420f6de3404cf365ba32050eec</document_key><order>600</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-11-04 17:11:33</sys_created_on><sys_id>126538420f6de3404cf365ba32050e53</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-11-04 17:11:33</sys_updated_on><value>(function execute(inputs, outputs) {
+
+var copyAtt = new GlideSysAttachment();
+  copyAtt.copy(inputs.sTable,inputs.sSysID,inputs.tTable,inputs.tSysID);
+  
+  
+})(inputs, outputs);
+</value><variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_hub_step_instance</document><document_key>1665f4420f6de3404cf365ba32050eec</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-11-04 17:11:33</sys_created_on><sys_id>5e6538420f6de3404cf365ba32050e52</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-11-04 17:11:33</sys_updated_on><value>35aa573fd7802200bdbaee5b5e610375</value><variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=1665f4420f6de3404cf365ba32050eec"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>application</field><id>1665f4420f6de3404cf365ba32050eec</id><sys_created_by>admin</sys_created_by><sys_created_on>2018-11-04 17:11:33</sys_created_on><sys_id>1a6538420f6de3404cf365ba32050e52</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-11-04 17:11:33</sys_updated_on><table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table><value/></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>script</field><id>1665f4420f6de3404cf365ba32050eec</id><sys_created_by>admin</sys_created_by><sys_created_on>2018-11-04 17:11:33</sys_created_on><sys_id>da6538420f6de3404cf365ba32050e52</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-11-04 17:11:33</sys_updated_on><table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table><value/></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>sSysID</field><id>1665f4420f6de3404cf365ba32050eec</id><sys_created_by>admin</sys_created_by><sys_created_on>2018-11-04 17:11:33</sys_created_on><sys_id>126538420f6de3404cf365ba32050e54</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-11-04 17:11:33</sys_updated_on><table>var__m_sys_hub_step_ext_input_1665f4420f6de3404cf365ba32050eec</table><value>{{action.source_record_sys_id_}}</value></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>sTable</field><id>1665f4420f6de3404cf365ba32050eec</id><sys_created_by>admin</sys_created_by><sys_created_on>2018-11-04 17:11:33</sys_created_on><sys_id>5e6538420f6de3404cf365ba32050e53</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-11-04 17:11:33</sys_updated_on><table>var__m_sys_hub_step_ext_input_1665f4420f6de3404cf365ba32050eec</table><value>{{action.source_table}}</value></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>tSysID</field><id>1665f4420f6de3404cf365ba32050eec</id><sys_created_by>admin</sys_created_by><sys_created_on>2018-11-04 17:11:33</sys_created_on><sys_id>9a6538420f6de3404cf365ba32050e53</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-11-04 17:11:33</sys_updated_on><table>var__m_sys_hub_step_ext_input_1665f4420f6de3404cf365ba32050eec</table><value>{{action.target_record_sys_id_}}</value></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>tTable</field><id>1665f4420f6de3404cf365ba32050eec</id><sys_created_by>admin</sys_created_by><sys_created_on>2018-11-04 17:11:33</sys_created_on><sys_id>d26538420f6de3404cf365ba32050e54</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-11-04 17:11:33</sys_updated_on><table>var__m_sys_hub_step_ext_input_1665f4420f6de3404cf365ba32050eec</table><value>{{action.target_table}}</value></sys_element_mapping></record_update>]]></payload>
+<payload_hash>1075290793</payload_hash>
+<remote_update_set display_value="Episode 3 - Custom Action to copy attachments">3885f8ce0f2de3404cf365ba32050e68</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-11-04 17:11:59</sys_created_on>
+<sys_id>c185f8ce0f2de3404cf365ba32050e6e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166dfb54ea20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-11-04 17:11:59</sys_updated_on>
+<table/>
+<target_name>Script step</target_name>
+<type>Step Instance</type>
+<update_domain>global</update_domain>
+<update_guid>56653842ad6de34091612c2628423c56</update_guid>
+<update_guid_history>56653842ad6de34091612c2628423c56:1075290793,9e65f4429a6de340273e1befcfb6ceee:-1743226922</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_var__m_sys_hub_action_input_b3f430420f6de3404cf365ba32050e65_target_table_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="target_table" label="Target Table" language="en" table="var__m_sys_hub_action_input_b3f430420f6de3404cf365ba32050e65"><sys_documentation action="INSERT_OR_UPDATE"><element>target_table</element><help/><hint/><label>Target Table</label><language>en</language><name>var__m_sys_hub_action_input_b3f430420f6de3404cf365ba32050e65</name><plural/><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-11-04 17:11:26</sys_created_on><sys_id>bc65b4420f6de3404cf365ba32050ede</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Target Table</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_var__m_sys_hub_action_input_b3f430420f6de3404cf365ba32050e65_target_table_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-11-04 17:11:26</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1493554321</payload_hash>
+<remote_update_set display_value="Episode 3 - Custom Action to copy attachments">3885f8ce0f2de3404cf365ba32050e68</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-11-04 17:11:59</sys_created_on>
+<sys_id>c585f8ce0f2de3404cf365ba32050e6a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166dfb544780000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-11-04 17:11:59</sys_updated_on>
+<table>var__m_sys_hub_action_input_b3f430420f6de3404cf365ba32050e65</table>
+<target_name>.Target Table</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>f165f442a96de340ef211161aa997766</update_guid>
+<update_guid_history>f165f442a96de340ef211161aa997766:-1493554321</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_hub_step_ext_input_8965f4420f6de3404cf365ba32050e33</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_hub_step_ext_input"&gt;&lt;sys_hub_step_ext_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;tSysID&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;tSysID&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Script step"&gt;0965f4420f6de3404cf365ba32050e0c&lt;/model&gt;&lt;model_id&gt;0965f4420f6de3404cf365ba32050e0c&lt;/model_id&gt;&lt;model_table&gt;sys_hub_step_instance&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_step_ext_input_0965f4420f6de3404cf365ba32050e0c&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;3&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_step_ext_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-11-04 17:11:28&lt;/sys_created_on&gt;&lt;sys_id&gt;8965f4420f6de3404cf365ba32050e33&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;var__m_sys_hub_step_ext_input_0965f4420f6de3404cf365ba32050e0c&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_step_ext_input_8965f4420f6de3404cf365ba32050e33&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-11-04 17:11:28&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_step_ext_input&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-15021605</payload_hash>
+<remote_update_set display_value="Episode 3 - Custom Action to copy attachments">3885f8ce0f2de3404cf365ba32050e68</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-11-04 17:11:59</sys_created_on>
+<sys_id>c585f8ce0f2de3404cf365ba32050e6d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166dfb53a7c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-11-04 17:11:59</sys_updated_on>
+<table/>
+<target_name/>
+<type>Extended Step Input Variable</type>
+<update_domain>global</update_domain>
+<update_guid>4565f442286de3405d040d6289ef2e37</update_guid>
+<update_guid_history>4565f442286de3405d040d6289ef2e37:-15021605</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_var__m_sys_hub_action_input_8665f4420f6de3404cf365ba32050ec2_target_table_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="target_table" label="Target Table" language="en" table="var__m_sys_hub_action_input_8665f4420f6de3404cf365ba32050ec2"><sys_documentation action="INSERT_OR_UPDATE"><element>target_table</element><help/><hint/><label>Target Table</label><language>en</language><name>var__m_sys_hub_action_input_8665f4420f6de3404cf365ba32050ec2</name><plural/><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2018-11-04 17:11:32</sys_created_on><sys_id>1e65f4420f6de3404cf365ba32050ee2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Target Table</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_var__m_sys_hub_action_input_8665f4420f6de3404cf365ba32050ec2_target_table_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2018-11-04 17:11:32</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>903627569</payload_hash>
+<remote_update_set display_value="Episode 3 - Custom Action to copy attachments">3885f8ce0f2de3404cf365ba32050e68</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-11-04 17:11:59</sys_created_on>
+<sys_id>c985f8ce0f2de3404cf365ba32050e69</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166dfb54b110000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-11-04 17:11:59</sys_updated_on>
+<table>var__m_sys_hub_action_input_8665f4420f6de3404cf365ba32050ec2</table>
+<target_name>.Target Table</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>1e65f4428f6de340565affc36108dfe3</update_guid>
+<update_guid_history>1e65f4428f6de340565affc36108dfe3:903627569</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_hub_step_ext_input_5665f4420f6de3404cf365ba32050ef1</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_hub_step_ext_input"&gt;&lt;sys_hub_step_ext_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;sTable&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;sTable&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="Script step"&gt;1665f4420f6de3404cf365ba32050eec&lt;/model&gt;&lt;model_id&gt;1665f4420f6de3404cf365ba32050eec&lt;/model_id&gt;&lt;model_table&gt;sys_hub_step_instance&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_step_ext_input_1665f4420f6de3404cf365ba32050eec&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;0&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_step_ext_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-11-04 17:11:32&lt;/sys_created_on&gt;&lt;sys_id&gt;5665f4420f6de3404cf365ba32050ef1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;var__m_sys_hub_step_ext_input_1665f4420f6de3404cf365ba32050eec&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_step_ext_input_5665f4420f6de3404cf365ba32050ef1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-11-04 17:11:32&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_step_ext_input&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1627061680</payload_hash>
+<remote_update_set display_value="Episode 3 - Custom Action to copy attachments">3885f8ce0f2de3404cf365ba32050e68</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-11-04 17:11:59</sys_created_on>
+<sys_id>c985f8ce0f2de3404cf365ba32050e6c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166dfb54c890000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-11-04 17:11:59</sys_updated_on>
+<table/>
+<target_name/>
+<type>Extended Step Input Variable</type>
+<update_domain>global</update_domain>
+<update_guid>5265f4424b6de340b4587e3a031f23f5</update_guid>
+<update_guid_history>5265f4424b6de340b4587e3a031f23f5:1627061680</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_hub_action_input_f065b4420f6de3404cf365ba32050ed4</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_hub_action_input"&gt;&lt;sys_hub_action_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;source_record_sys_id_&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Source Record (sys_id)&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;8000&lt;/max_length&gt;&lt;model display_value="copyAttachments"&gt;b3f430420f6de3404cf365ba32050e65&lt;/model&gt;&lt;model_id&gt;b3f430420f6de3404cf365ba32050e65&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_definition&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_input_b3f430420f6de3404cf365ba32050e65&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2018-11-04 17:11:26&lt;/sys_created_on&gt;&lt;sys_id&gt;f065b4420f6de3404cf365ba32050ed4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;var__m_sys_hub_action_input_b3f430420f6de3404cf365ba32050e65&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_action_input_f065b4420f6de3404cf365ba32050ed4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-11-04 17:11:26&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_input&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1106081798</payload_hash>
+<remote_update_set display_value="Episode 3 - Custom Action to copy attachments">3885f8ce0f2de3404cf365ba32050e68</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2018-11-04 17:11:59</sys_created_on>
+<sys_id>cd85f8ce0f2de3404cf365ba32050e6b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>166dfb532fd0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2018-11-04 17:11:59</sys_updated_on>
+<table/>
+<target_name/>
+<type>Action Inputs</type>
+<update_domain>global</update_domain>
+<update_guid>7865b4429e6de340cb0638cd97440cd7</update_guid>
+<update_guid_history>7865b4429e6de340cb0638cd97440cd7:-1106081798</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
