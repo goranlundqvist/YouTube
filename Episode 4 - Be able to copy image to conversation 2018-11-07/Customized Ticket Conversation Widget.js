@@ -46,7 +46,7 @@ I have changed some things in the body html and the client controller. The rest 
                       ng-attr-placeholder="{{getPlaceholder()}}"
                       autocomplete="off"
                       ng-change="userTyping(data.journalEntry)"
-                      ng-paste="paste($event)"/> <!--THIS IS THE ONLY THING i ADDED/CHANGED IN THE HTML --->
+                      ng-paste="paste($event)"/>
             <span class="journal-field-indicator" ng-style="({'background-color': data.useSecondaryJournalField ? data.secondaryJournalField.color : data.primaryJournalField.color})"></span>
             <span class="input-group-btn" style="vertical-align: top">
               <input type="submit" class="btn btn-primary" value="{{data.btnLabel}}" ng-disabled="data.isPosting"/>
