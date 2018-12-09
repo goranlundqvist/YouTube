@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<unload unload_date="2018-11-07 17:49:24">
+<unload unload_date="2018-12-09 18:57:10">
 <sp_widget action="INSERT_OR_UPDATE">
+<category>standard</category>
 <client_script><![CDATA[function($window) {  
   var c = this;		
 	c.language = {value: 'en', displayValue: 'English'};		
@@ -18,10 +19,10 @@
 <docs display_value=""/>
 <field_list/>
 <has_preview>false</has_preview>
-<id>sp-lang-switch</id>
+<id/>
 <internal>false</internal>
 <link/>
-<name>Language Switch</name>
+<name>WD - Language Switch</name>
 <option_schema/>
 <public>true</public>
 <roles/>
@@ -45,16 +46,16 @@
 <servicenow>false</servicenow>
 <sys_class_name>sp_widget</sys_class_name>
 <sys_created_by>admin</sys_created_by>
-<sys_created_on>2016-08-01 16:07:09</sys_created_on>
-<sys_id>af0f73105b0122000d7ec7ad31f91a27</sys_id>
-<sys_mod_count>67</sys_mod_count>
-<sys_name>Language Switch</sys_name>
-<sys_package display_value="Service Portal - Core" source="com.glide.service-portal">6338cb21e9b2130059a65111a111781d</sys_package>
+<sys_created_on>2018-12-09 18:19:44</sys_created_on>
+<sys_id>22a4d591db9a63402288dc50cf96190e</sys_id>
+<sys_mod_count>2</sys_mod_count>
+<sys_name>WD - Language Switch</sys_name>
+<sys_package display_value="Global" source="global">global</sys_package>
 <sys_policy/>
 <sys_scope display_value="Global">global</sys_scope>
-<sys_update_name>sp_widget_af0f73105b0122000d7ec7ad31f91a27</sys_update_name>
+<sys_update_name>sp_widget_22a4d591db9a63402288dc50cf96190e</sys_update_name>
 <sys_updated_by>admin</sys_updated_by>
-<sys_updated_on>2016-08-03 23:12:28</sys_updated_on>
+<sys_updated_on>2018-12-09 18:37:29</sys_updated_on>
 <template><![CDATA[<div class="panel panel-{{::c.options.color}} b" ng-if="c.data.count > 0">
   <div class="panel-heading">
     <h4 class="panel-title">${Language}</h4>
