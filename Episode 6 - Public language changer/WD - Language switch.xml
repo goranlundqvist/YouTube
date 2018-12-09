@@ -23,7 +23,7 @@
 <link/>
 <name>Language Switch</name>
 <option_schema/>
-<public>false</public>
+<public>true</public>
 <roles/>
 <script><![CDATA[(function() {			
 	var gr = GlideRecord("sys_language");	
