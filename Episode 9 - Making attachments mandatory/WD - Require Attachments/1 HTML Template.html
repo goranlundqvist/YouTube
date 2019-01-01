@@ -1,0 +1,12 @@
+<div class="m-t-n">
+  <p ng-if="parent.attachments.length < data.neededAttach">
+    <b>${This catalog item requires {{c.data.attachLeft}} more attachment(s) before submitting}</b>
+  </p>
+  <span class="file-upload-input">
+    <input type="file" style="display: none" multiple="true" ng-file-select="parent.attachmentHandler.onFileSelect($files)" class="sp-attachments-input">
+    <a href="javascript:void(0)" id="attachment_add" ng-click="parent.attachmentHandler.openSelector($event)" class="btn btn-primary sp-attachment-add">
+      <span class="glyphicon glyphicon-paperclip"></span>
+      <span>${Add Attachments}</span>
+    </a>
+  </span>
+</div>

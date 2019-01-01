@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2019-01-01 20:44:57">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Episode 9 - Making attachments mandatory</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>a7311cbcdbf2a3002288dc50cf961905</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-01-01 20:44:57</sys_created_on>
+<sys_id>c2729cfcdbf2a3002288dc50cf9619d6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-01-01 20:44:57</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_set_f84b0324db32a3002288dc50cf961939</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set"><item_option_new_set action="INSERT_OR_UPDATE"><create_roles/><description>.</description><display_title>false</display_title><internal_name>wd_require_attachments</internal_name><layout>normal</layout><name/><order>10000</order><read_roles/><sys_class_name>item_option_new_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-01-01 15:34:08</sys_created_on><sys_id>f84b0324db32a3002288dc50cf961939</sys_id><sys_mod_count>1</sys_mod_count><sys_name>WD - Require Attachments</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_set_f84b0324db32a3002288dc50cf961939</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-01-01 20:40:58</sys_updated_on><title>WD - Require Attachments</title><type>one_to_one</type><write_roles/></item_option_new_set></record_update>]]></payload>
+<payload_hash>2102741840</payload_hash>
+<remote_update_set display_value="Episode 9 - Making attachments mandatory">c2729cfcdbf2a3002288dc50cf9619d6</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-01-01 20:44:57</sys_created_on>
+<sys_id>02729cfcdbf2a3002288dc50cf9619d7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1680b25dff20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-01-01 20:44:57</sys_updated_on>
+<table/>
+<target_name>WD - Require Attachments</target_name>
+<type>Variable Set</type>
+<update_domain>global</update_domain>
+<update_guid>e781dcbc24f2a300382cffa9fd4031e6</update_guid>
+<update_guid_history>e781dcbc24f2a300382cffa9fd4031e6:2102741840,4d5b43245c32a30066c0d010cd02b918:-1290848550</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_e00254fcdbf2a3002288dc50cf961961</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new"><item_option_new action="INSERT_OR_UPDATE"><active>true</active><attributes/><cat_item/><category/><choice_direction>down</choice_direction><choice_field/><choice_table/><create_roles/><default_html_value/><default_value/><delete_roles/><delivery_plan/><description/><display_title>false</display_title><do_not_select_first>false</do_not_select_first><dynamic_default_value/><dynamic_ref_qual/><example_text/><field/><global>false</global><help_tag>More information</help_tag><help_text/><include_none>false</include_none><instructions/><layout>normal</layout><list_table/><lookup_label/><lookup_price/><lookup_table/><lookup_unique>false</lookup_unique><lookup_value/><macro/><mandatory>false</mandatory><map_to_field>false</map_to_field><mask_use_confirmation>false</mask_use_confirmation><mask_use_encryption>false</mask_use_encryption><name>require_mandatory_attachments</name><order>100</order><price_if_checked>0</price_if_checked><pricing_implications>false</pricing_implications><question_text>Require mandatory attachments</question_text><read_roles/><rec_lookup_price/><rec_price_if_checked>0</rec_price_if_checked><record/><record_producer_table/><reference/><reference_qual/><reference_qual_condition/><scale_max>5</scale_max><scale_min>0</scale_min><show_help>false</show_help><show_help_on_load>false</show_help_on_load><sp_widget display_value="WD - Require Attachments">691b47e0db32a3002288dc50cf9619c0</sp_widget><summary_macro/><sys_class_name>item_option_new</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-01-01 20:43:35</sys_created_on><sys_id>e00254fcdbf2a3002288dc50cf961961</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Require mandatory attachments</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_e00254fcdbf2a3002288dc50cf961961</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-01-01 20:43:35</sys_updated_on><table/><tooltip/><type>14</type><ui_page/><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><variable_name/><variable_set display_value="WD - Require Attachments">f84b0324db32a3002288dc50cf961939</variable_set><variable_width/><visibility>1</visibility><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><visible_summary>true</visible_summary><write_roles/></item_option_new><sys_translated_text action="delete_multiple" query="documentkey=e00254fcdbf2a3002288dc50cf961961"/><fx_price action="delete_multiple" query="id=e00254fcdbf2a3002288dc50cf961961"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price_if_checked</field><id>e00254fcdbf2a3002288dc50cf961961</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2019-01-01 20:43:35</sys_created_on><sys_id>c62218fcdbf2a3002288dc50cf9619d0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-01-01 20:43:35</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_price_if_checked</field><id>e00254fcdbf2a3002288dc50cf961961</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2019-01-01 20:43:35</sys_created_on><sys_id>8e2218fcdbf2a3002288dc50cf9619ce</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-01-01 20:43:35</sys_updated_on><table>item_option_new</table><type>calculated</type></fx_price></record_update>]]></payload>
+<payload_hash>-69235624</payload_hash>
+<remote_update_set display_value="Episode 9 - Making attachments mandatory">c2729cfcdbf2a3002288dc50cf9619d6</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-01-01 20:44:57</sys_created_on>
+<sys_id>0a729cfcdbf2a3002288dc50cf9619d6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1680b2846db0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-01-01 20:44:57</sys_updated_on>
+<table/>
+<target_name>Require mandatory attachments</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>822218fc43f2a300aba14cc73438e4d3</update_guid>
+<update_guid_history>822218fc43f2a300aba14cc73438e4d3:-69235624</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sp_widget_691b47e0db32a3002288dc50cf9619c0</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function($scope, $rootScope) {
+	var c = this;
+	c.data.attachLeft = c.data.neededAttach;
+
+	$scope.parent = getParent($scope);
+
+	$scope.$watch('parent.attachments', function() {
+
+		if ($scope.parent.attachments) {
+			if ($scope.parent.attachments.length &gt;= c.data.neededAttach) {
+				enableSubmit();
+			} else {
+				disableSubmit();
+			}
+		}
+	});
+
+	function disableSubmit() {
+		c.data.attachLeft = c.data.neededAttach - $scope.parent.attachments.length;
+		$scope.parent.submitted = true;
+	}
+
+	function enableSubmit() {
+		$scope.parent.submitted = false;
+	}
+
+	function getParent(parent) {
+		if (parent.item) {
+			return parent;
+		} else {
+			if (parent.$parent){
+				return getParent(parent.$parent);
+			} else { 
+				console.warn("couldn't find the correct parent");
+			}
+		}
+	}
+}]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css/&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description&gt;Use this to make certain catalog items require attachments. This through a macro variable.&lt;/description&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id/&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link/&gt;&lt;name&gt;WD - Require Attachments&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */
+	var catSysID = $sp.getParameter('sys_id');
+
+	var getCatalogItem = new GlideRecord('sc_cat_item');
+	getCatalogItem.get(catSysID);
+
+	data.neededAttach = (getCatalogItem.getValue('u_att_need')) ? getCatalogItem.getValue('u_att_need') : 0;
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-01-01 15:33:04&lt;/sys_created_on&gt;&lt;sys_id&gt;691b47e0db32a3002288dc50cf9619c0&lt;/sys_id&gt;&lt;sys_mod_count&gt;34&lt;/sys_mod_count&gt;&lt;sys_name&gt;WD - Require Attachments&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_691b47e0db32a3002288dc50cf9619c0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-01-01 20:40:44&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class="m-t-n"&gt;
+  &lt;p ng-if="parent.attachments.length &lt; data.neededAttach"&gt;
+    &lt;b&gt;${This catalog item requires {{c.data.attachLeft}} more attachment(s) before submitting}&lt;/b&gt;
+  &lt;/p&gt;
+  &lt;span class="file-upload-input"&gt;
+    &lt;input type="file" style="display: none" multiple="true" ng-file-select="parent.attachmentHandler.onFileSelect($files)" class="sp-attachments-input"&gt;
+    &lt;a href="javascript:void(0)" id="attachment_add" ng-click="parent.attachmentHandler.openSelector($event)" class="btn btn-primary sp-attachment-add"&gt;
+      &lt;span class="glyphicon glyphicon-paperclip"&gt;&lt;/span&gt;
+      &lt;span&gt;${Add Attachments}&lt;/span&gt;
+    &lt;/a&gt;
+  &lt;/span&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1833433128</payload_hash>
+<remote_update_set display_value="Episode 9 - Making attachments mandatory">c2729cfcdbf2a3002288dc50cf9619d6</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-01-01 20:44:57</sys_created_on>
+<sys_id>c2729cfcdbf2a3002288dc50cf9619d7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1680b25ac210000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-01-01 20:44:57</sys_updated_on>
+<table/>
+<target_name>WD - Require Attachments</target_name>
+<type>Widget</type>
+<update_domain>global</update_domain>
+<update_guid>94819cb8b0f2a3002b58647822fb22d9</update_guid>
+<update_guid_history>94819cb8b0f2a3002b58647822fb22d9:-1833433128,48f40c74b7f2a30047aee5b5d601a9f5:1822284258,a354007418f2a30071112bcb320798f8:1481809532,83b3c4f041f2a300c7029c6ee266c153:-314562903,2d730cf043f2a3002bd39846952c3788:1478573768,fc73c8f0eef2a300802e73c1e65fc90f:-412917400,6463ccf02ff2a300c3c4e0e6622b628e:902250440,5f43c4b07ff2a3006935584583c89a67:-1937681214,c22308f0e1f2a30067e9a39f44b4e96a:-1006417741,56e2c8707ff2a300cc30fe8d15a76532:1289231167,686280b0c2f2a3000d6a1a0f84ea0283:-952750895,7db10870e0f2a300e3c6e5ca38ca9471:2114131808,0b918c302af2a3002f4e21687059b68e:640747643,4d6188fc24b2a300310906d88ca2d21d:911420031,cf2104306ef2a300243c3f977119bf72:1501865864,7e90003098f2a3000132fc68aada068c:1788100503,d73000bc55b2a3004098ffa2a85475f5:-606762876,bafe7bacbcb2a300ee331fe0473a3b5d:-908738386,3ede33ac03b2a30034c72593e1db7934:1919847063,e68e3fa8f3b2a300f4049306dc38fa56:-821135616,1d6e3f6c79b2a3008e38d3b991f98d58:611132404,ba3e3b6cfdb2a3000d73bf557bae0322:293855337,17fd3f2c82b2a30024a526bce8b519fd:-292842358,aecdffa886b2a300cc4cc8fbd921a8af:1170420990,6aad3f2cdcb2a30035d56bb267484aa7:1636357411,997dbba812b2a30075b009f1facd8ad1:1601702293,c7ea73a890b2a3005c4f751508454956:1289231167,afa997a03072a3009a334f1565f8d590:146923472,3e5757e8a932a30054fefdf1792d00e1:-296030352,0c4753eca032a3002c417edaf7b9d17a:-1346557241,8a27dfec3e32a3001c3fff454d89720f:-337969013,3af69b6cc632a300dd1017209d0b5068:-296030352,3ab657ec7f32a300b9e9b5173077cfe0:-1279344565,36861fa8f832a3001ec2a8aa7f6c4505:-86686959,dc66132ce032a3006bcf76068fb21b8d:1740422840,00f41b2c1a32a30053536ab072f96018:-2144530850,64e49b2c0d32a3006b7b1d66dfe9c05f:366437205,34349f2c9332a30088e9c3a8dd37e3ab:-696915202,4bc3df28c032a30022b2f4b73b6bab27:-2066031138,f603dba81832a300d244a877d2eb2245:-1527750301,af4293e83432a30089dc4f0d771d6cc7:775763589,1ca11ba81f32a300a56fefc5a061d1c8:-353654804,88019be4cc32a300428cef46c8e59783:-583099977,5bb0d3685432a3001cd2d59fb31c9629:-1527750301,73efcb28ea32a300d64ca0c03b1eb5dd:865274708,e32fc3e42932a3006ab809a2356cda8a:-1332909061,a83ecfa41f32a300e883435c7c051ce6:-1285369485,42ddcba41132a300dc5537dc866e2a13:-196242989,fa5dc3a41a32a300161f333d31ef194c:647137379,4b2dcf640432a3009e0f22837b410796:-1285369485,b42b4fe07332a3006d0397a5275cc212:467382791,691b47e08932a3002ee52662b7f487c2:-328384733</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
