@@ -1,4 +1,8 @@
 (function () {
+	/*
+	This is just a clone of the Simple List widget where the only thing I changed is in the Server Script 
+	and commented down below about encoded query.
+	*/
 	data.filterMsg = gs.getMessage("Filter...");
 	if(gs.nil(options.hide_footer))
 	    options.hide_footer = false;
