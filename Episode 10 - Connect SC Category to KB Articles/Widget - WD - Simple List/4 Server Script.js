@@ -1,8 +1,4 @@
 (function () {
-	/*
-	This is just a clone of the Simple List widget where the only thing I changed is in the Server Script 
-	and commented down below about encoded query.
-	*/
 	data.filterMsg = gs.getMessage("Filter...");
 	if(gs.nil(options.hide_footer))
 	    options.hide_footer = false;
@@ -36,7 +32,13 @@
 	}
 	gr.addEncodedQuery('sys_idIN' + articleSysIDs);
 	/*
-	End building my custom query
+	End building my custom query and start build my url temaplate
+	*/
+	var portalGr = $sp.getPortalRecord();
+  var suffix  = portalGr.getDisplayValue("url_suffix");
+	data.url = "/" + suffix + "?id="+options.sp_page + "&sys_id=";
+	/*
+	End building my url
 	*/
 	
 	options.title = options.title || gr.getPlural();

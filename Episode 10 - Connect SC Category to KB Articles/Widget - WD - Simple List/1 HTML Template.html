@@ -1,0 +1,51 @@
+<div class="panel panel-{{::c.options.color}} b" ng-if="c.data.isValid && (c.options.always_show || c.data.filterText || c.data.list.length)">
+    <div class="panel-heading" ng-if="::!c.options.hide_header">
+      <h2 class="h4 panel-title">
+        <span ng-if="c.options.glyph">
+          <fa name="{{::c.options.glyph}}" />
+        </span>{{::c.options.title}}</h2>
+      <!-- <i class="fa fa-filter" ng-click="c.toggleFilter()" ng-class="{'disabled-filter': !c.showFilter}"></i> -->
+      <div ng-show="c.showFilter">
+        <input aria-label="${Filter}" ng-model="c.data.filterText" ng-model-options="{debounce: 300}" sn-focus="c.showFilter" placeholder="{{::data.filterMsg}}" ng-change="c.update()" class="form-control input-sm filter-box">
+      </div>
+    </div>
+    <ul class="list-group hide-x-overflow" ng-style="::{maxHeight: c.getMaxHeight()}" style="overflow-y: auto;">
+      <li ng-if="c.data.list.length > 0" ng-repeat="item in c.data.list track by item.sys_id" class="list-group-item">
+        <!-- Removed this and added my own link
+  <a class="focus-inline-block" ng-click="c.onClick($event, item, item.url, {})" href="javascript:void(0) ">
+  -->
+              <!--Added my own custom link which instead opens in a new tab-->   		
+        <a class="focus-inline-block" ng-href="{{data.url}}{{item.sys_id}}" target="_blank"> 
+          <span ng-repeat="action in c.data.actions" href="" ng-click="c.onClick($event, item, action.url, action)" ng-if="action.glyph"
+                class="list-action l-h-40 pull-right">
+            <fa name="{{action.glyph}}" ng-class="c.getActionColor(action)" />
+          </span>
+          <span ng-if="c.options.image_field" class="pull-left m-r"
+                ng-class="{'avatar': c.options.rounded_images, 'thumb-sm': c.options.rounded_images}">
+            <img ng-src="{{item.image_field}}" alt="..." class="img-sm" ng-class="{'img-circle': c.options.rounded_images}">
+          </span>
+          <div>
+            <div ng-switch on="item.display_field.type" ng-class="{'l-h-40': !item.secondary_fields.length}">
+              <span class="translated-html" ng-switch-when="translated_html" ng-bind-html="item.display_field.value"></span>
+              <div ng-switch-default>{{item.display_field.display_value}}</div>
+            </div>
+            <small class="text-muted" ng-repeat="f in item.secondary_fields">
+              <span ng-if="!$first"> • </span>
+              <span ng-switch="f.type" title="{{::f.label}}">
+                <span ng-switch-when="glide_date"><sn-time-ago timestamp="::f.value" /></span>
+                <span ng-switch-when="glide_date_time"><sn-time-ago timestamp="::f.value" /></span>
+                <span ng-switch-default="">{{f.display_value}}</span>
+              </span>
+            </small>
+          </div>
+        </a>
+      </li>
+      <div ng-if="!c.data.list.length" class="list-group-item">
+        ${No records found}
+      </div>
+    </ul>
+    <div class="panel-footer" ng-if="!c.options.hide_footer && c.options.maximum_entries && c.data.count > c.options.maximum_entries">
+      <div class="h4 number-shown-label">{{c.getMaxShownLabel(c.options.maximum_entries, c.data.count)}}</div>
+      <a class="pull-right" ng-href="?id={{c.seeAllPage}}&table={{c.options.table}}&filter={{c.options.filter}}{{c.targetPageID}}">${View all}</a>
+    </div>
+  </div>
