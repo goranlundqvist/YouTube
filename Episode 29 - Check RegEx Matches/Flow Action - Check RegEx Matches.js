@@ -7,7 +7,7 @@
   
     //Decide if we want to use the global flag or not  
       var regEx = (globalSearch) ?
-          new RegExp(pattern, "jg") :
+        new RegExp(pattern, "jg") :
         new RegExp(pattern, "j");
   
       var allMatches = textSearch.match(regEx);
