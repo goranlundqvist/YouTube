@@ -14,7 +14,7 @@
     
     outputs.is_match = regEx.test(textSearch);//Returns true if we find atleast one match
     outputs.matches_found = allMatches; //Returns all matching data in an array
-      outputs.first_match = allMatches[0];
+    outputs.first_match = allMatches[0];
   }
   catch(e) {
     gs.logError('Error in flow Action "Check Regex Matches": ' + e, "Flow");
