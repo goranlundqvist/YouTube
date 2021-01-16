@@ -26,7 +26,7 @@
         hwIncident.walkTo(0);
         while (hwIncident.walkForward()) {
         
-            if (hwIncident.getWalkedRecord().problem = parent.getUniqueValue() && oldProblem.sys_updated_on < hwIncident.getWalkedRecord().sys_updated_on){
+            if (hwIncident.getWalkedRecord().problem == parent.getUniqueValue() && oldProblem.sys_updated_on < hwIncident.getWalkedRecord().sys_updated_on){
                 IncidentsAfterAsses.push(hwIncident.getWalkedRecordCopy().sys_id);
                 break;
             }   
