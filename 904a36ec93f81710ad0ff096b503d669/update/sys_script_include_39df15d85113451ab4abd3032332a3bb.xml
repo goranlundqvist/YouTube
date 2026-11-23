@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_2323551_ep_38_0.RoWriteTester</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Try to write each demo field and report which writes worked. Brazil release.</description>
+        <mobile_callable>false</mobile_callable>
+        <name>RoWriteTester</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[/**
+ * Purpose: Try to write each demo field and report which writes worked.
+ * Release: Brazil (the Read only option needs Australia or later)
+ * Requirements: Scoped app, demo table and fields from step 1, run as admin.
+ * Status: UNTESTED
+ */
+var RoWriteTester = Class.create();
+RoWriteTester.prototype = {
+    initialize: function() {
+        this.TABLE = 'x_2323551_ep_38_0_ro_demo';
+        this.FIELDS = ['ro_display', 'ro_client', 'ro_strict', 'ro_instance', 'ro_none'];
+    },
+
+    findDemoRecord: function() {
+        var gr = new GlideRecord(this.TABLE);
+        gr.addQuery('name', 'demo');
+        gr.setLimit(1);
+        gr.query();
+        return gr.next() ? gr.getUniqueValue() : '';
+    },
+
+    tryWrite: function(sysId, secure) {
+        var label = secure ? 'GlideRecordSecure' : 'GlideRecord';
+        var marker = (secure ? 'S_' : 'P_') + new GlideDateTime().getNumericValue();
+        var report = [];
+        for (var i = 0; i < this.FIELDS.length; i++) {
+            var field = this.FIELDS[i];
+            var gr = secure ? new GlideRecordSecure(this.TABLE) : new GlideRecord(this.TABLE);
+            if (!gr.get(sysId)) {
+                report.push(field + ': record not found');
+                continue;
+            }
+            gr.setValue(field, marker);
+            var note;
+            try {
+                note = 'update() returned ' + gr.update();
+            } catch (e) {
+                note = 'error: ' + e.message;
+            }
+            report.push(field + ': ' + this._readBack(sysId, field, marker) + ' (' + note + ')');
+        }
+        gs.info(label + ' test\n' + report.join('\n'));
+        return report;
+    },
+
+/**
+ * Purpose: Read the value fresh from the database and compare it to the marker.
+ * Release: Brazil
+ * Requirements: Inside RoWriteTester.
+ * Status: UNTESTED
+ */
+    _readBack: function(sysId, field, marker) {
+        var check = new GlideRecord(this.TABLE);
+        check.get(sysId);
+        var stored = check.getValue(field);
+        return stored == marker ? 'CHANGED' : 'NOT CHANGED (stored: ' + stored + ')';
+    },
+
+/**
+ * Purpose: Test one field only, so results do not depend on loop order.
+ * Release: Brazil
+ * Requirements: Add inside RoWriteTester, same TABLE setting.
+ * Status: UNTESTED
+ */
+    tryWriteField: function(sysId, secure, field) {
+        var label = secure ? 'GlideRecordSecure' : 'GlideRecord';
+        var marker = (secure ? 'S_' : 'P_') + new GlideDateTime().getNumericValue();
+        var gr = secure ? new GlideRecordSecure(this.TABLE) : new GlideRecord(this.TABLE);
+        if (!gr.get(sysId)) {
+            return field + ': record not found';
+        }
+        gr.setValue(field, marker);
+        var note;
+        try {
+            note = 'update() returned ' + gr.update();
+        } catch (e) {
+            note = 'error: ' + e.message;
+        }
+        var line = label + ' ' + field + ': ' + this._readBack(sysId, field, marker) + ' (' + note + ')';
+        gs.info(line);
+        return line;
+    },
+
+    type: 'RoWriteTester'
+};
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-23 19:07:03</sys_created_on>
+        <sys_id>39df15d85113451ab4abd3032332a3bb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>RoWriteTester</sys_name>
+        <sys_package display_value="Ep 38 Read Only Options" source="x_2323551_ep_38_0">904a36ec93f81710ad0ff096b503d669</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ep 38 Read Only Options">904a36ec93f81710ad0ff096b503d669</sys_scope>
+        <sys_update_name>sys_script_include_39df15d85113451ab4abd3032332a3bb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-23 20:00:42</sys_updated_on>
+    </sys_script_include>
+</record_update>
