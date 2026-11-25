@@ -7,7 +7,7 @@
 var RoWriteTester = Class.create();
 RoWriteTester.prototype = {
     initialize: function() {
-        this.TABLE = 'x_2323551_ep_38_0_ro_demo';
+        this.TABLE = 'YOUR_TABLE';
         this.FIELDS = ['ro_display', 'ro_client', 'ro_strict', 'ro_instance', 'ro_none'];
     },
 
